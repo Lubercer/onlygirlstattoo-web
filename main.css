@@ -82,7 +82,20 @@ h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 30px;
+    animation: luna 1s linear 0s infinite normal forwards;
 }    
+@keyframes luna {
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0.2;
+    }
+    
+    100% {
+    opacity: 1;}
+}
 .fecha-titulo {
     color:rgb(223, 186, 193);
     font-style: italic;
