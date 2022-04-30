@@ -1,13 +1,13 @@
 /*css modificando Bootstrap */
 .nav-pills .nav-link.active, .nav-pills .show  > .nav-link {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     background-color:  rgb(121, 113, 119);
 }
 .nav-link{
-    color:  rgb(223, 186, 193);
+    color:  #dfbac1;
 }
 .nav-item > a:hover {
-    color:rgb(121, 113, 119);
+    color:#797177;
 }
 .header {
     width: 300px;
@@ -21,7 +21,7 @@ div.row {
     text-align: center;
     justify-content: center; 
     margin:0 auto;
-    color:  rgb(121, 113, 119);
+    color:  #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -29,7 +29,7 @@ div.row {
     width: 100%;
 }
 strong {
-    color:  rgb(121, 113, 119);
+    color:  #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -47,7 +47,7 @@ body {
     width: 100%;
 }
 h4  {
-    color: rgb(41, 37, 40);
+    color: #292528;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -61,7 +61,7 @@ span {
     font-size: 10px;
 }
 h3 {
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -69,14 +69,14 @@ h3 {
     text-align: center;
 }
 .titulo {
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 35px;
     }
 .tabla2 {
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -85,7 +85,7 @@ h3 {
 }
 .boton0 {
     text-align: right;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -94,14 +94,14 @@ h3 {
 }
 .boton {
     text-align: center;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 27px;
 }
 .boton2 {
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -109,7 +109,7 @@ h3 {
     text-align: right;
 }
 h2 {
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -117,7 +117,7 @@ h2 {
 }
 .tituloreserva {
     text-align: center;
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -137,28 +137,28 @@ h2 {
     opacity: 1;}
 }
 .fecha-titulo {
-    color:rgb(223, 186, 193);
+    color:#dfbac1;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 27px;
 }
 .fecha {
-    color:rgb(223, 186, 193);
+    color:#dfbac1;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 19px;
     }
 .fecha2 {
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 17px; 
 }
 .opciones {  
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -167,24 +167,24 @@ h2 {
     transition: all;
 }
 .opciones:hover {
-    color:rgb(67, 61, 66);
+    color:#433d42;
 }
 .nombre {
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 20px; 
 }
 .aceptar {
-    color:rgb(223, 186, 193);
+    color:#dfbac1;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
     font-size: 20px; 
 }
 h6 {
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -192,7 +192,7 @@ h6 {
     text-align: center;
 }
 h5 {   
-    color:rgb(121, 113, 119);
+    color:#797177;
     font-style: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -203,7 +203,7 @@ h5 {
 ul li {
     display: inline;
     padding: 10px;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style:italic;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 17px;
@@ -218,7 +218,7 @@ ul li {
 }
 .menu ul {
    text-align: center;
-   color: rgb(223, 186, 193);
+   color: #dfbac1;
    font-style: bold;
    font-family: 'Bebas Neue', sans-serif;
    font-weight: 500;
@@ -226,11 +226,11 @@ ul li {
 }
 a {
     text-decoration: none;
-    color:rgb(121, 113, 119);
+    color:#797177;
 }
 .entrar {
   text-align: center;
-  color: rgb(223, 186, 193);
+  color: #dfbac1;
   font-size: 27px;
   padding: 27px;
 }
@@ -244,7 +244,7 @@ a {
     width: 100%;
 }
 .reserva1 {
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 20px; 
@@ -255,10 +255,10 @@ a {
     transition: all;
 }
 .reserva1:hover {
-    color: rgb(123, 73, 82);
+    color: #7b4952;
 }
 .reserva {
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 23px; 
@@ -268,11 +268,11 @@ a {
     transition: all;
 }
 .reserva:hover {
-    color: rgb(123, 73, 82);
+    color: #7b4952;
 }
 h2 .tituloreserva {
     text-align: center;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -297,7 +297,7 @@ footer {
 }
 .grid div {
     margin:0 auto;
-    color:  rgb(121, 113, 119);
+    color:  #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -306,7 +306,7 @@ footer {
 }
 #tabla-perfos {
     margin:0 auto;
-    color:  rgb(121, 113, 119);
+    color:  #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -316,7 +316,7 @@ footer {
     margin:0 auto;
 }
 .dias {
-    color: rgb(121, 113, 119);
+    color: #797177;
     font-style: italic;
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 500;
@@ -325,14 +325,14 @@ footer {
 h2 {   
     text-align: center;
     font-style: italic;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-size: 10px;
     padding: 27px;
 }
 header .titulo  {
     text-align: center;
     font-style: italic;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-size: 25px;
     margin: 10px auto;
 }
@@ -346,7 +346,7 @@ header .titulo  {
 .preguntas {
     text-align: center;
     font-style: italic;
-    color: rgb(223, 186, 193);
+    color: #dfbac1;
     font-size: 25px;
     margin: 10px auto;
 }
