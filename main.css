@@ -1,3 +1,14 @@
+/*css modificando Bootstrap */
+.nav-pills .nav-link.active, .nav-pills .show  > .nav-link {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(121, 113, 119);
+}
+.nav-link{
+    color:  rgb(223, 186, 193);
+}
+.nav-item > a:hover {
+    color:rgb(121, 113, 119);
+}
 .header {
     width: 300px;
     transition: all 1s ease; 
@@ -5,6 +16,32 @@
 }
 header:hover {
     text-shadow: 11px 9px 7px rgb(121, 113, 119);
+}
+div.row {
+    text-align: center;
+    justify-content: center; 
+    margin:0 auto;
+    color:  rgb(121, 113, 119);
+    font-style: italic;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%;
+}
+strong {
+    color:  rgb(121, 113, 119);
+    font-style: italic;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    width: 100%;
+}
+.container-xl, .container-lg, .container-md, .container-sm, .container {
+    width: 100%;
+}
+/* Hasta aca CSS Bootstrap */ 
+body {
+    width: 100%;
 }
 h4  {
     color: rgb(41, 37, 40);
@@ -348,6 +385,9 @@ h1 {
     font-size: 40px;
 }
 @media screen and (min-width: 375px) {
+body {
+    width: 375px;
+}
 .grid div { 
     text-align: center;
     width: 75px;
@@ -358,17 +398,22 @@ h1 {
 }
 }
 @media screen and (min-width: 425px) {
+body {
+    width: 425px;
+}
 .contenedor {
-    width: 410px;
+    width: 425px;
     justify-content: center;
 }
-.grid div {
+div.row  {
     text-align: center;
     font-size: 15px;
 }    
 }
 @media screen and (min-width: 480px) {
-
+body {
+    width: 480px;
+}
 h1 {
     font-size: 67px;
 }
@@ -421,6 +466,9 @@ h5 {
 }
 }
 @media screen and (min-width: 484px) {
+body {
+    width: 484px;
+}
 main .videosaritos {
     width: 478px;
 }
@@ -441,6 +489,9 @@ main.contenedor {
 }
 } 
 @media screen and (min-width: 494px) {
+body {
+    width: 494px;
+}
 main .videosaritos {
     width: 494px;
 }
@@ -461,6 +512,9 @@ main.contenedor {
 }
 }  
 @media screen and (min-width: 510px) {
+body {
+    width: 510px;
+}
 .contenedor { 
     width: 510px;
 }
@@ -491,6 +545,9 @@ h5 {
 }
 }
 @media screen and (min-width: 554px) {
+body {
+    width: 554px;
+}
 main.contenedor {
     width: 554px;
 }
@@ -514,6 +571,9 @@ h5 {
 }   
 }  
 @media screen and (min-width: 558px) {
+body {
+    width: 558px;
+}
 .contenedor { 
     width: 558px;
 }
@@ -544,7 +604,10 @@ h5 {
 }
 }
 @media screen and (min-width: 598px) {
-main.contenedor {
+body {
+    width: 598px;
+}
+    main.contenedor {
     width: 598px;
 }
 .grid {
@@ -567,6 +630,9 @@ h5 {
 }   
 }  
 @media screen and (min-width: 604px) {
+body {
+    width: 604px;
+}
 .contenedor { 
     width: 604px;
 }
@@ -597,6 +663,9 @@ h5 {
 }
 }
 @media screen and (min-width: 612px) {
+body {
+    width: 612px;
+}
 main .videosaritos {
     width: 606px;
 }
@@ -620,6 +689,9 @@ main.contenedor {
 }
 }  
 @media screen and (min-width: 618px) {
+body {
+    width: 618px;
+}
 .contenedor { 
     width:  618px;
 }
@@ -650,6 +722,9 @@ h5 {
 }
 }
 @media screen and (min-width: 692px) {
+body {
+    width: 692px;
+}
 main .videosaritos {
     width: 692px;
 }
@@ -673,6 +748,9 @@ main.contenedor {
 }
 } 
 @media screen and (min-width: 704px) {
+body {
+    width: 704px;
+}
 .contenedor { 
     width: 704px;
 }
@@ -732,14 +810,20 @@ h5 {
 }
 }
 @media screen and (min-width: 716px) {
+body {
+    width: 716px;
+}
 .grid div {
-    width: 200px;
+    width: 716px;
 }
 .grid2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width:716px;
     text-align: center;
+}
+main.contenedor {
+    width: 716px;
 }
 main .videosaritos {
     width: 716px;
@@ -758,6 +842,9 @@ h5 {
 }
 }
 @media screen and (min-width: 726px) {
+body {
+    width: 726px;
+}
 .contenedor { 
     width:  726px;
 }
@@ -788,19 +875,25 @@ h5 {
 }
 }
 @media screen and (min-width: 754px) {
-.contenedor { 
+body {
+    width: 754px;
+}
+main.contenedor { 
     width:734px;
 }
 .grid div {
-    width:350;
+    width:754px;
 }
 .videosaritos {
-    width: 734px;
+    width: 754px;
     align-content: center;
 }
 .mapa {
-    width: 734px;
+    width: 754px;
     align-content: center;
+}
+div.container.justify-content-center {
+    font-size: 65px;
 }
 }
 @media screen and (min-width: 768px) {
@@ -840,8 +933,9 @@ ul li {
 .dias {
     font-size: 20px;    
 }
-.grid div {
+div.row  {
     font-size: 25px;
+    width: 768px;
 }
 #tabla-perfos {
     font-size: 27px;
@@ -859,6 +953,8 @@ ul li {
     width: 768px;
 }
 main.contenedor {
+    justify-content: center;
+    align-content: center;
    width: 768px;
 }
 div.videosaritos {
@@ -869,6 +965,9 @@ main.mapa {
 } 
 }
 @media screen and (min-width: 850px) {
+body {
+    width: 850px;
+}
 main .videosaritos {
     width: 850px;
 }
@@ -888,7 +987,62 @@ main.contenedor {
     width: 850px;
 }
 }   
+@media screen and (min-width: 858px) {
+body {
+    width: 858px;
+}
+main .videosaritos {
+    width: 858px;
+}
+.ubi {
+    width: 858px;
+}
+h5 {
+    width:858px;
+}
+.ubicacion {
+    width: 858px;
+}
+div.grid2 {
+    width: 858px;
+}
+main.contenedor {
+    width: 858px;
+}
+} 
+@media screen and (min-width: 883px) {
+header {
+    width: 883px;
+}
+h3.sucur {
+    width: 883px;
+}
+.contenedor { 
+    width: 883px;
+}
+div.row  {
+    width: 883px;
+}
+main .videosaritos {
+     width: 883px;
+}
+.mapa {
+    width: 883px;
+}
+.ubicacion {
+    width: 883px;
+}
+h5 {
+    width: 883px;
+}
+div.container.justify-content-center {
+    width: 883px;
+}
+} 
 @media screen and (min-width: 922px) {
+body {
+    width: 922px;
+}
 main .videosaritos {
     width: 922px;
 }
@@ -998,14 +1152,73 @@ main.contenedor {
     align-items: center;
 }  
 }
+@media screen and (min-width: 1031px) {
+body {
+    width: 1031px;
+}
+.contenedor { 
+    width: 1031px;
+}
+div.row {
+    width:1031px;
+}
+div.videosaritos {
+    width: 1031px;
+    align-content: center;
+}
+.mapa {
+    width: 1031px;
+    align-content: center;
+}
+div.row {
+    width: 1031px;
+}
+.ubicacion {
+    width: 1031px;
+}
+h5 {
+    width: 1031px;
+}  
+}  
+@media screen and (min-width: 1051px) {
+body {
+    width: 1051px;
+}
+.contenedor { 
+    width: 1051px;
+}
+div.row {
+    width:1051px;
+}
+div.videosaritos {
+    width: 1051px;
+    align-content: center;
+}
+.mapa {
+    width: 1051px;
+    align-content: center;
+}
+div.row {
+    width: 1051px;
+}
+.ubicacion {
+    width: 1051px;
+}
+h5 {
+    width: 1051px;
+}  
+}  
 @media screen and (min-width: 1054px) {
+body {
+    width: 1054px;
+}
 .contenedor { 
     width: 1054px;
  }
-.grid {
+div.row {
      width:1054px;
     }
-main .videosaritos {
+div.videosaritos {
     width: 1054px;
     align-content: center;
 }
@@ -1013,7 +1226,7 @@ main .videosaritos {
     width: 1054px;
     align-content: center;
 }
-div.grid2 {
+div.row {
     width: 1054px;
 }
 .ubicacion {
@@ -1027,7 +1240,7 @@ h5 {
 .contenedor { 
     width: 1068px;
 }
-.grid {
+div.row {
     width:1068px;
 }
 main .videosaritos {
@@ -1038,7 +1251,7 @@ main .videosaritos {
     width: 1068px;
     align-content: center;
 }
-div.grid2 {
+div.row  {
         width: 1068px;
 }
 .ubicacion {
@@ -1052,7 +1265,7 @@ h5 {
 .contenedor { 
      width: 1115px;
 }
-.grid {
+div.row  {
     width: 1115px;
 }
 main .videosaritos {
@@ -1063,7 +1276,7 @@ main .videosaritos {
     width: 1115px;
     align-content: center;
 }
-div.grid2 {
+div.row {
     width: 1115px;
 }
 .ubicacion {
@@ -1073,11 +1286,37 @@ h5 {
     width: 1115px;
 }  
 }
+@media screen and (min-width: 1160px) {
+header {
+    width: 1160px;
+}
+h3.sucur {
+    width: 1160px;
+}
+.contenedor { 
+    width: 1160px;
+}
+div.row  {
+    width: 1160px;
+}
+main .videosaritos {
+    width: 1160px;
+}
+.mapa {
+    width: 1160px;
+}
+.ubicacion {
+    width: 1160px;
+}
+h5 {
+    width: 1160px;
+}
+} 
 @media screen and (min-width: 1178px) {
 .contenedor { 
      width: 1178px;
 }
-.grid {
+div.row  {
     width: 1178px;
 }
 main .videosaritos {
@@ -1088,7 +1327,7 @@ main .videosaritos {
     width: 1178px;
     align-content: center;
 }
-div.grid2 {
+div.row  {
     width: 1178px;
 }
 .ubicacion {
@@ -1116,7 +1355,7 @@ main .mapa {
 .contenedor { 
     width: 1218px;
 }
-.grid {
+div.row  {
     width: 1218px;
 }
 main .videosaritos {
@@ -1125,7 +1364,7 @@ main .videosaritos {
 .mapa {
     width: 1218px;
 }
-div.grid2 {
+div.row  {
     width: 1218px;
 }
 .ubicacion {
@@ -1135,31 +1374,80 @@ h5 {
     width: 1218px;
 }
 } 
+@media screen and (min-width: 1231px) {
+header {
+    width: 1231px;
+}
+h3.sucur {
+    width: 1231px;
+}
+.contenedor { 
+    width: 1231px;
+}
+div.row  {
+    width: 1231px;
+}
+main .videosaritos {
+    width: 1231px;
+}
+.mapa {
+    width: 1231px;
+}
+.ubicacion {
+    width: 1231px;
+}
+h5 {
+    width: 1231px;
+}
+} 
 @media screen and (min-width: 1260px) {
-    .contenedor { 
+.contenedor { 
+    width: 1260px;
+}
+div.row  {
+    width: 1260px;
+}
+ main .videosaritos {
         width: 1260px;
-    }
-    footer {
-        width: 1260px;
-    }
-    main .videosaritos {
-        width: 1260px;
-    }
-    .mapa {
-         width: 1260px;
-    }
-    .ubicacion {
-        width: 1260px;
-    }
-    h5 {
-        width: 1260px;
-    }
-    } 
+}
+.mapa {
+    width: 1260px;
+}
+.ubicacion {
+    width: 1260px;
+}
+h5 {
+    width: 1260px;
+}
+} 
+@media screen and (min-width: 1267px) {
+body {
+    width: 1267px;
+}
+.contenedor { 
+    width: 1267px;
+}
+div.row  {
+    width: 1267px;
+}
+main .videosaritos {
+    width: 1267px;
+}
+.mapa {
+    width: 1267px;
+}
+.ubicacion {
+    width: 1267px;
+}
+h5 {
+    width: 1267px;
+}
+} 
 @media screen and (min-width: 1270px) {
 .contenedor { 
     width: 1270px;
 }
-.grid {
+div.row  {
     width: 1270px;
 }
 main .videosaritos {
@@ -1168,7 +1456,7 @@ main .videosaritos {
 .mapa {
      width: 1270px;
 }
-div.grid2 {
+div.row  {
     width: 1270px;
 }
 .ubicacion {
@@ -1178,6 +1466,32 @@ h5 {
     width: 1270px;
 }
 } 
+@media screen and (min-width: 1280px) {
+    main.contenedor { 
+        width: 1280px;
+    }
+    div.row  {
+        width: 1280px;
+    }
+    main .videosaritos {
+        width: 1280px;
+    }
+    .mapa {
+         width: 1280px;
+    }
+    div.row  {
+        width: 1280px;
+    }
+    .ubicacion {
+        width: 1280px;
+    }
+    h5 {
+        width: 1280px;
+    }
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        width: 1280px;
+    }
+    } 
 @media screen and (min-width: 1310px) {
 .contenedor { 
     width: 1310px;
@@ -1231,7 +1545,39 @@ main .mapa {
 width: 1372px;
 }
 } 
+@media screen and (min-width: 1389px) {
+div#sucursales {
+    width: 1389px;
+}
+}
+@media screen and (min-width: 1423px) {
+body {
+    width: 1423px;
+}
+div.row  {
+    width: 1423px;
+}
+div.videosaritos {
+    width: 1423px;
+    align-content: center;
+}
+div.ubi {
+    width: 1423px;
+}
+div.row  {
+    width: 1423px;
+}
+h5 {
+    width: 1423px;  
+}
+.ubicacion {
+    width: 1423px;   
+}
+} 
 @media screen and (min-width: 1432px) {
+body {
+    width: 1432px;
+}
 .contenedor { 
     width: 1432px;
 }
@@ -1246,14 +1592,17 @@ main .mapa {
 }
 } 
 @media screen and (min-width: 1440px) {
+body {
+    width: 1440px;
+}
 h1 {
     font-size: 120px;
 }
-div.grid {
+div.row {
     font-size: 27px;
     width: 1440px;
 }
-div.grid2 {
+div.row {
     width: 1440px;
 }
 h5 {
@@ -1266,6 +1615,7 @@ h5 {
 .mapa {
     width: 1440px;
     align-content: center;
+    justify-content: center;
 }
 .ubicacion {
     width: 1440px;
@@ -1277,32 +1627,47 @@ main.contenedor {
 main .videosaritos {
     width: 1440px;
 }
+h3.sucur {
+    width: 1440px;
+    justify-content: center;
+    text-align: center;
+}
 }
 @media screen and (min-width: 1442px) {
+body {
+    width: 1442px;
+}
 .contenedor { 
-    width: 1440px;
+    width: 1442px;
 }
 main .videosaritos {
-    width: 1054px;
+    width: 1442px;
     align-content: center;
 }
 .mapa {
-    width: 1440px;
+    width: 1442px;
     align-content: center;
 }
+footer {
+    width: 1442px;  
 }
+}
+
  @media screen and (min-width: 1628px) {
-div.grid  {
-     width: 1628px;
+body {
+    width: 1628px;
 }
-div .videosaritos {
+div.row  {
+    width: 1628px;
+}
+div.videosaritos {
      width: 1628px;
      align-content: center;
 }
 div.ubi {
     width: 1628px;
 }
-div.grid2 {
+div.row  {
     width: 1628px;
 }
 h5 {
@@ -1313,10 +1678,13 @@ h5 {
 }
 } 
 @media screen and (min-width: 1642px) {
-main.contenedor {
+body {
     width: 1642px;
 }
-.grid {
+ main.contenedor {
+    width: 1642px;
+}
+div.row {
     width: 1642px;
 }
 main .videosaritos {
@@ -1325,7 +1693,7 @@ main .videosaritos {
 .mapa {
     width: 1642px;
 }
-div.grid2 {
+div.row {
     width: 1642px;
 }
 .ubicacion {
@@ -1336,6 +1704,9 @@ h5 {
 }   
 }
 @media screen and (min-width: 1650px) {
+body {
+    width: 1650px;
+}
 main.contenedor {
     width: 1650px;
 }
@@ -1358,7 +1729,45 @@ h5 {
     width: 1650px;
 }    
 }
+@media screen and (min-width: 1920px) {
+body {
+    width: 1920px;
+}
+div.opciones {
+    width: 1920px;
+}
+header {
+    width: 1920px;
+}
+h3.sucur {
+    width: 1920px;
+}
+.contenedor { 
+    width: 1920px;
+}
+div.row  {
+    width: 1920px;
+}
+main .videosaritos {
+    width: 1920px;
+}
+.mapa {
+    width: 1920px;
+}
+.ubicacion {
+    width: 1920px;
+}
+h5 {
+    width: 1920px;
+}
+div.ubi {
+    width: 1920px;
+}
+} 
 @media screen and (min-width: 2560px) {
+body {
+    width: 2560px;
+}
 h1 {
     font-size:250px;
 }
