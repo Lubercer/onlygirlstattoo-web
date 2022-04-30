@@ -37,6 +37,10 @@
         <div class="tituloreserva">
             <h2  class="tituloreserva">RESERVA TU TURNO</h2>
         </div>
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>RECORDATORIO:</strong> Personas menores de edad tendrán que asisir con su tutor legal y/o llenar formulario de autorización con la documentación correspondiente.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
         <main>
             <table id="tabla-perfos" border="2" cellpadding="5"> 
                 <thead >
@@ -170,7 +174,10 @@
                     <br>    
                 <div  class="opciones">
                     <input  class="opciones" type="submit" value="Aceptar">
-                    <input  class="opciones" type="reset" value="Limpiar">   
+                    <input  class="opciones" type="reset" value="Limpiar"> 
+                    <div class="spinner-border text-secondary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>  
                 </div>
         <footer> 
             <div class="container justify-content-center">
