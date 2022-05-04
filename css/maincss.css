@@ -1,0 +1,1571 @@
+.header {
+  width: 300px;
+  transition: all 1s ease;
+  margin-left: 760px; }
+
+header:hover {
+  text-shadow: 11px 9px 7px #797177; }
+
+header .titulo {
+  text-align: center;
+  font-style: italic;
+  color: #dfbac1;
+  font-size: 25px;
+  margin: 10px auto; }
+
+.nav-pills .nav-link.active {
+  color: #ffffff;
+  background-color: #797177; }
+
+.nav-pills .show > .nav-link {
+  color: #ffffff;
+  background-color: #797177; }
+
+.nav-link {
+  color: #dfbac1; }
+
+.nav-item > a:hover {
+  color: #797177; }
+
+div.row {
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  width: 100%; }
+
+footer {
+  width: 100%; }
+
+@keyframes luna {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0.2; }
+  100% {
+    opacity: 1; } }
+
+strong {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  width: 100%; }
+
+.container-xl {
+  width: 100%; }
+
+.container-lg {
+  width: 100%; }
+
+.container-md {
+  width: 100%; }
+
+.container-sm {
+  width: 100%; }
+
+.container {
+  width: 100%; }
+
+.alert-warning {
+  width: 100%; }
+
+body {
+  width: 100%; }
+
+h4 {
+  color: #292528;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px; }
+
+span {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 10px; }
+
+h3 {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 35;
+  text-align: center; }
+
+.titulo {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 35px; }
+
+.tabla2 {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center; }
+
+.boton0 {
+  text-align: right;
+  color: #dfbac1;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center; }
+
+.boton {
+  text-align: center;
+  color: #dfbac1;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px; }
+
+.boton2 {
+  color: #dfbac1;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  text-align: right; }
+
+h2 {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center;
+  font-style: italic;
+  color: #dfbac1;
+  font-size: 10px;
+  padding: 27px; }
+  h2 .tituloreserva {
+    text-align: center;
+    color: #dfbac1;
+    font-style: italic;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 18px; }
+
+.tituloreserva {
+  text-align: center;
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  animation: luna 1s linear 0s infinite normal forwards; }
+
+.fecha-titulo {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px; }
+
+.fecha {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 19px; }
+
+.fecha2 {
+  color: #797177;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 17px; }
+
+.opciones {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: center;
+  transition: all; }
+  .opciones:hover {
+    color: #433d42; }
+
+.nombre {
+  color: #797177;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px; }
+
+.aceptar {
+  color: #dfbac1;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px; }
+
+h6 {
+  color: #dfbac1;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center; }
+
+h5 {
+  color: #797177;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  width: 100%; }
+
+ul li {
+  display: inline;
+  padding: 10px;
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 17px;
+  justify-content: center;
+  text-decoration: none; }
+
+.video {
+  width: 80%;
+  text-align: justify;
+  margin: 40px auto;
+  display: none; }
+
+.menu ul {
+  text-align: center;
+  color: #dfbac1;
+  font-style: bold;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 27px; }
+
+a {
+  text-decoration: none;
+  color: #797177; }
+
+.entrar {
+  text-align: center;
+  color: #dfbac1;
+  font-size: 27px;
+  padding: 27px; }
+
+.mapa {
+  text-align: center;
+  width: 100%; }
+
+.ubicacion {
+  text-align: center;
+  font-size: 37px;
+  width: 100%; }
+
+.reserva1 {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+  display: flex;
+  padding: 10px;
+  margin: 100px;
+  justify-content: center;
+  transition: all; }
+  .reserva1:hover {
+    color: #7b4952; }
+
+.reserva {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 23px;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  transition: all; }
+  .reserva:hover {
+    color: #7b4952; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-content: end;
+  text-align: center; }
+  .grid div {
+    margin: 0 auto;
+    color: #797177;
+    font-style: italic;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 15px; }
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-content: end;
+  text-align: center; }
+
+#tabla-perfos {
+  margin: 0 auto;
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 20px; }
+
+#tabla-fecha {
+  margin: 0 auto; }
+
+.dias {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 15px; }
+
+.musica {
+  text-align: right;
+  position: sticky;
+  top: 0%;
+  border-radius: 10px;
+  display: none; }
+
+.preguntas {
+  text-align: center;
+  font-style: italic;
+  color: #dfbac1;
+  font-size: 25px;
+  margin: 10px auto; }
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 0px;
+  width: 70%; }
+
+.img1 {
+  display: none; }
+
+.img2 {
+  display: none; }
+
+.img3 {
+  display: none; }
+
+.img4 {
+  display: none; }
+
+.img10 {
+  display: none; }
+
+.videosaritos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; }
+
+#sucursales .sucur {
+  border-style: solid;
+  border-color: #dfbac1;
+  color: #797177; }
+
+h1 {
+  font-size: 40px; }
+
+p.card-text {
+  color: #797177;
+  font-style: normal;
+  font-family: 'Bebas Neue', sans-serif; }
+
+h6 .card-title {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 23px; }
+
+@media screen and (min-width: 375px) {
+  body {
+    width: 375px; }
+  .grid div {
+    text-align: center;
+    width: 75px;
+    display: inline; }
+  .contenedor {
+    width: 375px; } }
+
+@media screen and (min-width: 425px) {
+  body {
+    width: 425px; }
+  .contenedor {
+    width: 425px;
+    justify-content: center; }
+  div.row {
+    text-align: center;
+    font-size: 15px; } }
+
+@media screen and (min-width: 480px) {
+  body {
+    width: 480px; }
+  h1 {
+    font-size: 67px; }
+  .reserva1 {
+    margin: 50px; }
+  .video {
+    display: inline;
+    text-align: center; }
+  .grid div {
+    font-size: 17px; }
+  .contenedor {
+    justify-items: center; }
+  .tituloreserva {
+    font-size: 38px; }
+  #tabla-perfos {
+    font-size: 27px; }
+  .fecha {
+    font-size: 27px; }
+  .opciones {
+    font-size: 25px; }
+  ul li {
+    font-size: 22px; }
+  h5 {
+    font-size: 21px; }
+  .preguntas {
+    font-size: 35px; }
+  .ubi {
+    width: 480px; }
+  .mapa {
+    width: 480px; }
+  #sucursales .sucur {
+    font-style: italic;
+    color: #797177;
+    font-size: 35px;
+    border-style: solid;
+    border-color: #dfbac1; } }
+
+@media screen and (min-width: 484px) {
+  body {
+    width: 484px; }
+  main .videosaritos {
+    width: 478px; }
+  .ubi {
+    width: 478px; }
+  h5 {
+    width: 478px; }
+  .ubicacion {
+    width: 478px; }
+  div.grid2 {
+    width: 478px; }
+  main.contenedor {
+    width: 478px; } }
+
+@media screen and (min-width: 494px) {
+  body {
+    width: 494px; }
+  main .videosaritos {
+    width: 494px; }
+  .ubi {
+    width: 494px; }
+  h5 {
+    width: 494px; }
+  .ubicacion {
+    width: 494px; }
+  div.grid2 {
+    width: 494px; }
+  main.contenedor {
+    width: 494px; } }
+
+@media screen and (min-width: 510px) {
+  .alert-warning {
+    width: 510px; }
+  body {
+    width: 510px; }
+  .contenedor {
+    width: 510px; }
+  .grid {
+    width: 510px; }
+    .grid div {
+      font-size: 25px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 510px;
+    align-content: center; }
+  .mapa {
+    width: 510px;
+    align-content: center; }
+  .grid2 {
+    width: 510px; }
+  .ubicacion {
+    width: 510px; }
+  h5 {
+    width: 510px; } }
+
+@media screen and (min-width: 554px) {
+  .alert-warning {
+    width: 554px; }
+  body {
+    width: 554px; }
+  main.contenedor {
+    width: 554px; }
+  .grid {
+    width: 554px; }
+  main .videosaritos {
+    width: 554px; }
+  .mapa {
+    width: 554px; }
+  div.grid2 {
+    width: 554px; }
+  .ubicacion {
+    width: 554px; }
+  h5 {
+    width: 554px; } }
+
+@media screen and (min-width: 525px) {
+  .alert-warning {
+    width: 525px; } }
+
+@media screen and (min-width: 558px) {
+  .alert-warning {
+    width: 558px; }
+  body {
+    width: 558px; }
+  .contenedor {
+    width: 558px; }
+  .grid {
+    width: 558px; }
+    .grid div {
+      font-size: 16px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 558px;
+    align-content: center; }
+  .mapa {
+    width: 558px;
+    align-content: center; }
+  .grid2 {
+    width: 558px; }
+  .ubicacion {
+    width: 558px; }
+  h5 {
+    width: 558px; } }
+
+@media screen and (min-width: 598px) {
+  body {
+    width: 598px; }
+  main.contenedor {
+    width: 598px; }
+  .grid {
+    width: 598px; }
+  main .videosaritos {
+    width: 598px; }
+  .mapa {
+    width: 598px; }
+  div.grid2 {
+    width: 598px; }
+  .ubicacion {
+    width: 598px; }
+  h5 {
+    width: 598px; } }
+
+@media screen and (min-width: 604px) {
+  .alert-warning {
+    width: 604px; }
+  body {
+    width: 604px; }
+  .contenedor {
+    width: 604px; }
+  .grid {
+    width: 604px; }
+    .grid div {
+      font-size: 25px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 604px;
+    align-content: center; }
+  .mapa {
+    width: 604px;
+    align-content: center; }
+  .grid2 {
+    width: 604px; }
+  .ubicacion {
+    width: 604px; }
+  h5 {
+    width: 604px; } }
+
+@media screen and (min-width: 612px) {
+  .alert-warning {
+    width: 612px; }
+  body {
+    width: 612px; }
+  main .videosaritos {
+    width: 606px; }
+  .ubi {
+    width: 612px; }
+  h5 {
+    width: 612px; }
+  .ubicacion {
+    width: 612px; }
+  div.grid2 {
+    width: 612px; }
+  .grid {
+    width: 612px; }
+  main.contenedor {
+    width: 612px; } }
+
+@media screen and (min-width: 618px) {
+  body {
+    width: 618px; }
+  .contenedor {
+    width: 618px; }
+  .grid {
+    width: 618px; }
+    .grid div {
+      font-size: 18px;
+      text-align: center;
+      justify-content: center; }
+  main.videosaritos {
+    width: 618px;
+    align-content: center; }
+  .mapa {
+    width: 618px;
+    align-content: center; }
+  .grid2 {
+    width: 618px; }
+  .ubicacion {
+    width: 618px; }
+  h5 {
+    width: 618px; } }
+
+@media screen and (min-width: 665px) {
+  .alert-warning {
+    width: 665px; } }
+
+@media screen and (min-width: 692px) {
+  .alert-warning {
+    width: 692px; }
+  body {
+    width: 692px; }
+  main .videosaritos {
+    width: 692px; }
+  .ubi {
+    width: 692px; }
+  h5 {
+    width: 692px; }
+  .ubicacion {
+    width: 692px; }
+  div.grid2 {
+    width: 692px; }
+  .grid {
+    width: 692px; }
+  main.contenedor {
+    width: 612px; } }
+
+@media screen and (min-width: 704px) {
+  .alert-warning {
+    width: 704px; }
+  body {
+    width: 704px; }
+  .contenedor {
+    width: 704px; }
+  .grid {
+    width: 704px; }
+    .grid div {
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 704px;
+    align-content: center; }
+  .mapa {
+    width: 704px;
+    align-content: center; }
+  .grid2 {
+    width: 704px; }
+  .ubicacion {
+    width: 704px; }
+  h5 {
+    width: 704px; } }
+
+@media screen and (min-width: 710px) {
+  .alert-warning {
+    width: 710px; }
+  .contenedor {
+    width: 710px; }
+  .grid {
+    width: 710px; }
+    .grid div {
+      font-size: 20px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 710px;
+    align-content: center; }
+  .mapa {
+    width: 710px;
+    align-content: center; }
+  div.grid2 {
+    width: 710px; }
+  .ubicacion {
+    width: 710px; }
+  h5 {
+    width: 710px; } }
+
+@media screen and (min-width: 716px) {
+  .alert-warning {
+    width: 716px; }
+  body {
+    width: 716px; }
+  .grid div {
+    width: 716px; }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 716px;
+    text-align: center; }
+  main.contenedor {
+    width: 716px; }
+  main .videosaritos {
+    width: 716px;
+    display: inline; }
+  .mapa {
+    width: 716px;
+    align-content: center; }
+  .ubicacion {
+    width: 716px;
+    font-size: 40px; }
+  h5 {
+    width: 716px; } }
+
+@media screen and (min-width: 726px) {
+  .alert-warning {
+    width: 726px; }
+  body {
+    width: 726px; }
+  .contenedor {
+    width: 726px; }
+  .grid {
+    width: 726px; }
+    .grid div {
+      font-size: 20px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 726px;
+    align-content: center; }
+  .mapa {
+    width: 726px;
+    align-content: center; }
+  .grid2 {
+    width: 726px; }
+  .ubicacion {
+    width: 726px; }
+  h5 {
+    width: 726px; } }
+
+@media screen and (min-width: 754px) {
+  .alert-warning {
+    width: 754px; }
+  body {
+    width: 754px; }
+  main.contenedor {
+    width: 734px; }
+  .grid div {
+    width: 754px; }
+  .videosaritos {
+    width: 754px;
+    align-content: center; }
+  .mapa {
+    width: 754px;
+    align-content: center; }
+  div.container.justify-content-center {
+    font-size: 65px; } }
+
+@media screen and (min-width: 768px) {
+  .alert-warning {
+    width: 768px; }
+  h1 {
+    font-size: 87px; }
+  .contenedor {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    align-items: center;
+    width: 768px; }
+  .img10 {
+    display: none; }
+  .img5 {
+    display: inline; }
+  .img4 {
+    display: inline; }
+  .img3 {
+    display: inline; }
+  .img2 {
+    display: inline; }
+  .img1 {
+    display: inline; }
+  ul li {
+    font-size: 27px; }
+  #sucursales .sucur {
+    font-size: 45px; }
+  .dias {
+    font-size: 20px;
+    font-size: 22px; }
+  div.row {
+    font-size: 25px;
+    width: 768px; }
+  #tabla-perfos {
+    font-size: 27px; }
+  .fecha {
+    font-size: 28px; }
+  .reserva {
+    font-size: 27px; }
+  main.contenedor {
+    justify-content: center;
+    align-content: center;
+    width: 768px; }
+  div.videosaritos {
+    width: 768px; }
+  main.mapa {
+    width: 768px; } }
+
+@media screen and (min-width: 850px) {
+  .alert-warning {
+    width: 850px; }
+  body {
+    width: 850px; }
+  main .videosaritos {
+    width: 850px; }
+  .ubi {
+    width: 850px; }
+  h5 {
+    width: 850px; }
+  .ubicacion {
+    width: 850px; }
+  div.grid2 {
+    width: 850px; }
+  main.contenedor {
+    width: 850px; } }
+
+@media screen and (min-width: 858px) {
+  .alert-warning {
+    width: 858px; }
+  body {
+    width: 858px; }
+  main .videosaritos {
+    width: 858px; }
+  .ubi {
+    width: 858px; }
+  h5 {
+    width: 858px; }
+  .ubicacion {
+    width: 858px; }
+  div.grid2 {
+    width: 858px; }
+  main.contenedor {
+    width: 858px; } }
+
+@media screen and (min-width: 883px) {
+  .alert-warning {
+    width: 883px; }
+  header {
+    width: 883px; }
+  h3.sucur {
+    width: 883px; }
+  .contenedor {
+    width: 883px; }
+  div.row {
+    width: 883px; }
+  main .videosaritos {
+    width: 883px; }
+  .mapa {
+    width: 883px; }
+  .ubicacion {
+    width: 883px; }
+  h5 {
+    width: 883px; }
+  div.container.justify-content-center {
+    width: 883px; } }
+
+@media screen and (min-width: 922px) {
+  .alert-warning {
+    width: 922px; }
+  body {
+    width: 922px; }
+  main .videosaritos {
+    width: 922px; }
+  .ubi {
+    width: 922px; }
+  h5 {
+    width: 922px; }
+  .ubicacion {
+    width: 922px; }
+  div.grid2 {
+    width: 922px; }
+  main.contenedor {
+    width: 922px; } }
+
+@media screen and (min-width: 980px) {
+  .alert-warning {
+    width: 980px; }
+  .contenedor {
+    width: 960px; }
+  .grid {
+    width: 960px; }
+    .grid div {
+      font-size: 25px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 980px;
+    align-content: center; }
+  .mapa {
+    width: 960px;
+    align-content: center; }
+  .grid2 {
+    width: 980px; }
+  .ubicacion {
+    width: 980px; }
+  h5 {
+    width: 980px; } }
+
+@media screen and (min-width: 1000px) {
+  .alert-warning {
+    width: 1000px; } }
+
+@media screen and (min-width: 1024px) {
+  .alert-warning {
+    width: 1024px; }
+  h1 {
+    font-size: 100px; }
+  .reserva1 {
+    font-size: 35px; }
+  div.grid {
+    font-size: 27px;
+    width: 1024px; }
+  .img10 {
+    display: inline; }
+  .tituloreserva {
+    font-size: 60px; }
+  .fecha-titulo {
+    font-size: 35px; }
+  .opciones {
+    font-size: 30px; }
+  .mapa {
+    width: 1024px;
+    align-content: center; }
+  .ubicacion {
+    width: 1024px;
+    width: 1024px; }
+  h5 {
+    width: 1024px;
+    font-size: 25px;
+    width: 1024px; }
+  .dias {
+    font-size: 27px; }
+  .fecha {
+    font-size: 29px; }
+  div.videosaritos {
+    width: 1024px; }
+  .ubi {
+    width: 1024px; }
+  main.contenedor {
+    width: 1024px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    align-items: center; } }
+
+@media screen and (min-width: 1031px) {
+  .alert-warning {
+    width: 1031px; }
+  body {
+    width: 1031px; }
+  .contenedor {
+    width: 1031px; }
+  div.row {
+    width: 1031px;
+    width: 1031px; }
+  div.videosaritos {
+    width: 1031px;
+    align-content: center; }
+  .mapa {
+    width: 1031px;
+    align-content: center; }
+  .ubicacion {
+    width: 1031px; }
+  h5 {
+    width: 1031px; } }
+
+@media screen and (min-width: 1051px) {
+  .alert-warning {
+    width: 1051px; }
+  body {
+    width: 1051px; }
+  .contenedor {
+    width: 1051px; }
+  div.row {
+    width: 1051px;
+    width: 1051px; }
+  div.videosaritos {
+    width: 1051px;
+    align-content: center; }
+  .mapa {
+    width: 1051px;
+    align-content: center; }
+  .ubicacion {
+    width: 1051px; }
+  h5 {
+    width: 1051px; } }
+
+@media screen and (min-width: 1054px) {
+  .alert-warning {
+    width: 1054px; }
+  body {
+    width: 1054px; }
+  .contenedor {
+    width: 1054px; }
+  div.row {
+    width: 1054px;
+    width: 1054px; }
+  div.videosaritos {
+    width: 1054px;
+    align-content: center; }
+  .mapa {
+    width: 1054px;
+    align-content: center; }
+  .ubicacion {
+    width: 1054px; }
+  h5 {
+    width: 1054px; } }
+
+@media screen and (min-width: 1068px) {
+  .alert-warning {
+    width: 1068px; }
+  .contenedor {
+    width: 1068px; }
+  div.row {
+    width: 1068px;
+    width: 1068px; }
+  main .videosaritos {
+    width: 1068px;
+    align-content: center; }
+  .mapa {
+    width: 1068px;
+    align-content: center; }
+  .ubicacion {
+    width: 1068px; }
+  h5 {
+    width: 1068px; } }
+
+@media screen and (min-width: 1115px) {
+  .alert-warning {
+    width: 1130px; }
+  .contenedor {
+    width: 1115px; }
+  div.row {
+    width: 1115px;
+    width: 1115px; }
+  main .videosaritos {
+    width: 1115px;
+    align-content: center; }
+  .mapa {
+    width: 1115px;
+    align-content: center; }
+  .ubicacion {
+    width: 1115px; }
+  h5 {
+    width: 1115px; } }
+
+@media screen and (min-width: 1130px) {
+  .alert-warning {
+    width: 1130px; }
+  .contenedor {
+    width: 1130px; }
+  div.row {
+    width: 1130px;
+    width: 1130px; }
+  main .videosaritos {
+    width: 1130px;
+    align-content: center; }
+  .mapa {
+    width: 1130px;
+    align-content: center; }
+  .ubicacion {
+    width: 1130px; }
+  h5 {
+    width: 1130px; } }
+
+@media screen and (min-width: 1160px) {
+  .alert-warning {
+    width: 1160px; }
+  header {
+    width: 1160px; }
+  h3.sucur {
+    width: 1160px; }
+  .contenedor {
+    width: 1160px; }
+  div.row {
+    width: 1160px; }
+  main .videosaritos {
+    width: 1160px; }
+  .mapa {
+    width: 1160px; }
+  .ubicacion {
+    width: 1160px; }
+  h5 {
+    width: 1160px; } }
+
+@media screen and (min-width: 1178px) {
+  .alert-warning {
+    width: 1178px; }
+  .contenedor {
+    width: 1178px; }
+  div.row {
+    width: 1178px;
+    width: 1178px; }
+  main .videosaritos {
+    width: 1178px;
+    align-content: center; }
+  .mapa {
+    width: 1178px;
+    align-content: center; }
+  .ubicacion {
+    width: 1178px; }
+  h5 {
+    width: 1178px; } }
+
+@media screen and (min-width: 1212px) {
+  .alert-warning {
+    width: 1212; }
+  .contenedor {
+    width: 1212px; }
+  main.contenedor {
+    width: 1212px; }
+  main .videosaritos {
+    width: 1212px; }
+  main .mapa {
+    width: 1212px; } }
+
+@media screen and (min-width: 1218px) {
+  .alert-warning {
+    width: 1218px; }
+  .contenedor {
+    width: 1218px; }
+  div.row {
+    width: 1218px;
+    width: 1218px; }
+  main .videosaritos {
+    width: 1218px; }
+  .mapa {
+    width: 1218px; }
+  .ubicacion {
+    width: 1218px; }
+  h5 {
+    width: 1218px; } }
+
+@media screen and (min-width: 1231px) {
+  .alert-warning {
+    width: 1231px; }
+  header {
+    width: 1231px; }
+  h3.sucur {
+    width: 1231px; }
+  .contenedor {
+    width: 1231px; }
+  div.row {
+    width: 1231px; }
+  main .videosaritos {
+    width: 1231px; }
+  .mapa {
+    width: 1231px; }
+  .ubicacion {
+    width: 1231px; }
+  h5 {
+    width: 1231px; } }
+
+@media screen and (min-width: 1260px) {
+  .alert-warning {
+    width: 1260px; }
+  .contenedor {
+    width: 1260px; }
+  div.row {
+    width: 1260px; }
+  main .videosaritos {
+    width: 1260px; }
+  .mapa {
+    width: 1260px; }
+  .ubicacion {
+    width: 1260px; }
+  h5 {
+    width: 1260px; } }
+
+@media screen and (min-width: 1267px) {
+  .alert-warning {
+    width: 1267px; }
+  body {
+    width: 1267px; }
+  .contenedor {
+    width: 1267px; }
+  div.row {
+    width: 1267px; }
+  main .videosaritos {
+    width: 1267px; }
+  .mapa {
+    width: 1267px; }
+  .ubicacion {
+    width: 1267px; }
+  h5 {
+    width: 1267px; } }
+
+@media screen and (min-width: 1270px) {
+  .alert-warning {
+    width: 1270px; }
+  .contenedor {
+    width: 1270px; }
+  div.row {
+    width: 1270px;
+    width: 1270px; }
+  main .videosaritos {
+    width: 1270px; }
+  .mapa {
+    width: 1270px; }
+  .ubicacion {
+    width: 1270px; }
+  h5 {
+    width: 1270px; } }
+
+@media screen and (min-width: 1280px) {
+  .alert-warning {
+    width: 1280px; }
+  main.contenedor {
+    width: 1280px; }
+  div.row {
+    width: 1280px;
+    width: 1280px; }
+  main .videosaritos {
+    width: 1280px; }
+  .mapa {
+    width: 1280px; }
+  .ubicacion {
+    width: 1280px; }
+  h5 {
+    width: 1280px; }
+  .container-xl {
+    width: 1280px; }
+  .container-lg {
+    width: 1280px; }
+  .container-md {
+    width: 1280px; }
+  .container-sm {
+    width: 1280px; }
+  .container {
+    width: 1280px; } }
+
+@media screen and (min-width: 1310px) {
+  .alert-warning {
+    width: 1310px; }
+  .contenedor {
+    width: 1310px; }
+  main.contenedor {
+    width: 1310px; }
+  main .videosaritos {
+    width: 1310px; }
+  main .mapa {
+    width: 1310px; } }
+
+@media screen and (min-width: 1314px) {
+  .alert-warning {
+    width: 1314px; }
+  .contenedor {
+    width: 1314px; }
+  main.contenedor {
+    width: 1314px; }
+  main .videosaritos {
+    width: 1314px; }
+  main .mapa {
+    width: 1314px; } }
+
+@media screen and (min-width: 1352px) {
+  .alert-warning {
+    width: 1352px; }
+  .contenedor {
+    width: 1352px; }
+  main.contenedor {
+    width: 1352px; }
+  main .videosaritos {
+    width: 1352px; } }
+
+@media screen and (min-width: 1372px) {
+  .alert-warning {
+    width: 1372px; }
+  .contenedor {
+    width: 1372px; }
+  main .contenedor {
+    width: 1372px; }
+  main .videosaritos {
+    width: 1372px; }
+  main .mapa {
+    width: 1372px; } }
+
+@media screen and (min-width: 1389px) {
+  .alert-warning {
+    width: 1389px; }
+  div#sucursales {
+    width: 1389px; } }
+
+@media screen and (min-width: 1423px) {
+  .alert-warning {
+    width: 1423px; }
+  body {
+    width: 1423px; }
+  div.row {
+    width: 1423px;
+    width: 1423px; }
+  div.videosaritos {
+    width: 1423px;
+    align-content: center; }
+  div.ubi {
+    width: 1423px; }
+  h5 {
+    width: 1423px; }
+  .ubicacion {
+    width: 1423px; }
+  h6.card-title {
+    font-size: 31px; } }
+
+@media screen and (min-width: 1432px) {
+  .alert-warning {
+    width: 1432px; }
+  body {
+    width: 1432px; }
+  .contenedor {
+    width: 1432px; }
+  main .contenedor {
+    width: 1432px; }
+  main .videosaritos {
+    width: 1432px; }
+  main .mapa {
+    width: 1432px; } }
+
+@media screen and (min-width: 1440px) {
+  .alert-warning {
+    width: 1440px; }
+  body {
+    width: 1440px; }
+  h1 {
+    font-size: 120px; }
+  div.row {
+    font-size: 27px;
+    width: 1440px;
+    width: 1440px; }
+  h5 {
+    width: 1440px;
+    font-size: 30px; }
+  .preguntas {
+    font-size: 55px; }
+  .mapa {
+    width: 1440px;
+    align-content: center;
+    justify-content: center; }
+  .ubicacion {
+    width: 1440px;
+    font-size: 40px; }
+  main.contenedor {
+    width: 1440px; }
+  main .videosaritos {
+    width: 1440px; }
+  h3.sucur {
+    width: 1440px;
+    justify-content: center;
+    text-align: center; } }
+
+@media screen and (min-width: 1442px) {
+  .alert-warning {
+    width: 1442px; }
+  body {
+    width: 1442px; }
+  .contenedor {
+    width: 1442px; }
+  main .videosaritos {
+    width: 1442px;
+    align-content: center; }
+  .mapa {
+    width: 1442px;
+    align-content: center; }
+  footer {
+    width: 1442px; } }
+
+@media screen and (min-width: 1628px) {
+  .alert-warning {
+    width: 1628px; }
+  body {
+    width: 1628px; }
+  div.row {
+    width: 1628px;
+    width: 1628px; }
+  div.videosaritos {
+    width: 1628px;
+    align-content: center; }
+  div.ubi {
+    width: 1628px; }
+  h5 {
+    width: 1628px; }
+  .ubicacion {
+    width: 1628px; } }
+
+@media screen and (min-width: 1642px) {
+  .alert-warning {
+    width: 1642px; }
+  body {
+    width: 1642px; }
+  main.contenedor {
+    width: 1642px; }
+  div.row {
+    width: 1642px;
+    width: 1642px; }
+  main .videosaritos {
+    width: 1642px; }
+  .mapa {
+    width: 1642px; }
+  .ubicacion {
+    width: 1642px; }
+  h5 {
+    width: 1642px; } }
+
+@media screen and (min-width: 1650px) {
+  .alert-warning {
+    width: 1650px; }
+  body {
+    width: 1650px; }
+  main.contenedor {
+    width: 1650px; }
+  .grid {
+    width: 1650px; }
+  main .videosaritos {
+    width: 1650px; }
+  .mapa {
+    width: 1650px; }
+  div.grid2 {
+    width: 1650px; }
+  .ubicacion {
+    width: 1650px; }
+  h5 {
+    width: 1650px; } }
+
+@media screen and (min-width: 1920px) {
+  .alert-warning {
+    width: 1920px; }
+  body {
+    width: 1920px; }
+  div.opciones {
+    width: 1920px; }
+  header {
+    width: 1920px; }
+  h3.sucur {
+    width: 1920px; }
+  .contenedor {
+    width: 1920px; }
+  div.row {
+    width: 1920px; }
+  main .videosaritos {
+    width: 1920px; }
+  .mapa {
+    width: 1920px; }
+  .ubicacion {
+    width: 1920px; }
+  h5 {
+    width: 1920px; }
+  div.ubi {
+    width: 1920px; } }
+
+@media screen and (min-width: 2560px) {
+  .alert-warning {
+    width: 2560px; }
+  body {
+    width: 2560px; }
+  h1 {
+    font-size: 250px; }
+  .reserva1 {
+    font-size: 60px; }
+  .grid {
+    width: 2560px; }
+    .grid div {
+      font-size: 35px;
+      display: block; }
+  div.grid2 {
+    width: 2560px; }
+  .video {
+    display: none; }
+  .contenedor {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2px;
+    align-items: center;
+    width: 2560px; }
+  ul li {
+    font-size: 48px; }
+  .reserva {
+    font-size: 65px; }
+  .tituloreserva {
+    font-size: 75px; }
+  .fecha-titulo {
+    font-size: 55px;
+    margin: 33px; }
+  thead {
+    font-size: 45px; }
+  tbody {
+    font-size: 38px; }
+  h6 {
+    font-size: 30px; }
+  div .opciones {
+    font-size: 38px;
+    margin: 15px;
+    border-radius: 15px; }
+  th {
+    font-size: 45px; }
+  td {
+    font-size: 30px; }
+  .opciones {
+    font-size: 50px; }
+  option {
+    font-size: 30px; }
+  table {
+    border-spacing: 10px; }
+  #sucursales .sucur {
+    font-size: 85px; }
+  .preguntas {
+    font-size: 55px;
+    font-size: 87px; }
+  .mapa {
+    width: 2560px;
+    height: 400;
+    align-content: center; }
+  h5 {
+    width: 2560px;
+    font-size: 40px; }
+  .ubicacion {
+    width: 2560px;
+    font-size: 70px; }
+  .videosaritos {
+    width: 2560px;
+    align-content: center; }
+  main .videosaritos {
+    width: 2560px; } }

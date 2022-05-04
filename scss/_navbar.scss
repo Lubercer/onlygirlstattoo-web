@@ -1,0 +1,22 @@
+.nav-pills {
+	.nav-link.active {
+		color: #ffffff;
+		background-color: rgb(121, 113, 119);
+	}
+	.show {
+		>.nav-link {
+			color: #ffffff;
+			background-color: rgb(121, 113, 119);
+		}
+	}
+}
+.nav-link {
+	color: #dfbac1;
+}
+.nav-item {
+	>a {
+		&:hover {
+			color: #797177;
+		}
+	}
+}
