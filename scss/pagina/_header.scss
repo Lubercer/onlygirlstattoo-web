@@ -1,0 +1,17 @@
+.header {
+	width: 300px;
+	transition: all 1s ease;
+	margin-left: 760px;
+}
+header {
+	&:hover {
+		text-shadow: 11px 9px 7px rgb(121, 113, 119);
+	}
+	.titulo {
+		text-align: center;
+		font-style: italic;
+		color: #dfbac1;
+		font-size: 25px;
+		margin: 10px auto;
+	}
+}

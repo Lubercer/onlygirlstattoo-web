@@ -1,7 +1,7 @@
-@import "variables";
-@import "header";
-@import "navbar";
-@import "footer";
+
+@import "bootstrap/bootstrap";
+@import "pagina/compilado";
+
 @keyframes luna {
 	0% {
 		opacity: 1;
@@ -12,6 +12,13 @@
 	100% {
 		opacity: 1;
 	}
+}
+img {
+	max-height: 100%;
+	width: auto;
+}
+.container3 {
+	height: 70px;
 }
 strong {
 	color: $color-2;
@@ -1132,6 +1139,9 @@ h6 {
 	}
 }
 @media screen and (min-width: 922px) {
+	.carousel-inner{
+	 height: 200px;
+	}
 	.alert-warning {
 		width: 922px;
 	}
