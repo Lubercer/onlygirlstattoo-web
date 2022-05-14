@@ -1,0 +1,248 @@
+
+@media screen and (min-width: 704px) {
+	.alert-warning {
+		width: 704px;
+	}
+	body {
+		width: 704px;
+	}
+	.contenedor {
+		width: 704px;
+	}
+	.grid {
+		width: 704px;
+		div {
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 704px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 704px;
+		align-content: center;
+	}
+	.grid2 {
+		width: 704px;
+	}
+	.ubicacion {
+		width: 704px;
+	}
+	h5 {
+		width: 704px;
+	}
+}
+@media screen and (min-width: 710px) {
+	.alert-warning {
+		width: 710px;
+	}
+	.contenedor {
+		width: 710px;
+	}
+	.grid {
+		width: 710px;
+		div {
+			font-size: 20px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 710px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 710px;
+		align-content: center;
+	}
+	div.grid2 {
+		width: 710px;
+	}
+	.ubicacion {
+		width: 710px;
+	}
+	h5 {
+		width: 710px;
+	}
+}
+@media screen and (min-width: 716px) {
+	.alert-warning {
+		width: 716px;
+	}
+	body {
+		width: 716px;
+	}
+	.grid {
+		div {
+			width: 716px;
+		}
+	}
+	.grid2 {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		width: 716px;
+		text-align: center;
+	}
+	main.contenedor {
+		width: 716px;
+	}
+	main {
+		.videosaritos {
+			width: 716px;
+			display: inline;
+		}
+	}
+	.mapa {
+		width: 716px;
+		align-content: center;
+	}
+	.ubicacion {
+		width: 716px;
+		font-size: 40px;
+	}
+	h5 {
+		width: 716px;
+	}
+}
+@media screen and (min-width: 726px) {
+	.alert-warning {
+		width: 726px;
+	}
+	body {
+		width: 726px;
+	}
+	.contenedor {
+		width: 726px;
+	}
+	.grid {
+		width: 726px;
+		div {
+			font-size: 20px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 726px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 726px;
+		align-content: center;
+	}
+	.grid2 {
+		width: 726px;
+	}
+	.ubicacion {
+		width: 726px;
+	}
+	h5 {
+		width: 726px;
+	}
+}
+@media screen and (min-width: 754px) {
+	.alert-warning {
+		width: 754px;
+	}
+	body {
+		width: 754px;
+	}
+	main.contenedor {
+		width: 734px;
+	}
+	.grid {
+		div {
+			width: 754px;
+		}
+	}
+	.videosaritos {
+		width: 754px;
+		align-content: center;
+	}
+	.mapa {
+		width: 754px;
+		align-content: center;
+	}
+	div.container.justify-content-center {
+		font-size: 65px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.alert-warning {
+		width: 768px;
+	}
+	h1 {
+		font-size: 87px;
+	}
+	.contenedor {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		grid-column-gap: 2px;
+		align-items: center;
+		width: 768px;
+	}
+	.img10 {
+		display: none;
+	}
+	.img5 {
+		display: inline;
+	}
+	.img4 {
+		display: inline;
+	}
+	.img3 {
+		display: inline;
+	}
+	.img2 {
+		display: inline;
+	}
+	.img1 {
+		display: inline;
+	}
+	ul {
+		li {
+			font-size: 27px;
+		}
+	}
+	#sucursales {
+		.sucur {
+			font-size: 45px;
+		}
+	}
+	.dias {
+		font-size: 20px;
+		font-size: 22px;
+	}
+	div.row {
+		font-size: 25px;
+		width: 768px;
+	}
+	#tabla-perfos {
+		font-size: 27px;
+	}
+	.fecha {
+		font-size: 28px;
+	}
+	.reserva {
+		font-size: 27px;
+	}
+	main.contenedor {
+		justify-content: center;
+		align-content: center;
+		width: 768px;
+	}
+	div.videosaritos {
+		width: 768px;
+	}
+	main.mapa {
+		width: 768px;
+	}
+}

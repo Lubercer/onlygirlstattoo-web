@@ -1,0 +1,376 @@
+@keyframes luna {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.2;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+img {
+	max-height: 100%;
+	width: auto;
+}
+.container3 {
+	height: 70px;
+}
+strong {
+	color: $color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 25px;
+	width: 100%;
+}
+.container-xl {
+	width: 100%;
+}
+.container-lg {
+	width: 100%;
+}
+.container-md {
+	width: 100%;
+}
+.container-sm {
+	width: 100%;
+}
+.container {
+	width: 100%;
+}
+.alert-warning {
+	width: 100%;
+}
+body {
+	width: 100%;
+}
+h4 {
+	color: #292528;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 27px;
+}
+span {
+	color: $color-1;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 10px;
+}
+h3 {
+	color: $color-1;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 35;
+	text-align: center;
+}
+.titulo {
+	color: $color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 35px;
+}
+.tabla2 {
+	color: $color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 27px;
+	text-align: center;
+}
+.boton0 {
+	text-align: right;
+	color:$color-1;
+	font-style: map-get($map: $styles, $key:"bold" );
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 27px;
+	text-align: center;
+}
+.boton {
+	text-align: center;
+	color: $color-1;
+	font-style: map-get($map: $styles, $key:"bold" );
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 27px;
+}
+.boton2 {
+	color: $color-1;
+	font-style:map-get($map: $styles, $key:"bold" );
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 27px;
+	text-align: right;
+}
+h2 {
+	color:$color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 27px;
+	text-align: center;
+	color:  $color-1;
+	font-size: 10px;
+	padding: 27px;
+	.tituloreserva {
+		text-align: center;
+		color: $color-1;
+		@include FontStyle();
+		font-weight: 500;
+		font-size: 18px;
+	}
+}
+.tituloreserva {
+	text-align: center;
+	color: $color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 30px;
+	animation: luna 1s linear 0s infinite normal forwards;
+}
+.fecha-titulo {
+	color: $color-1;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 27px;
+}
+.fecha {
+	color:  $color-1;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 19px;
+}
+.fecha2 {
+	color:$color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 17px;
+}
+.opciones {
+	color:$color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 19px;
+	text-align: center;
+	transition: all;
+	&:hover {
+		color: #433d42;
+	}
+}
+.nombre {
+	color: $color-2;
+	font-style: map-get($map: $styles, $key:"bold" );
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+.aceptar {
+	color: $color-1;
+	font-style: bold;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+h6 {
+	color:  $color-1;
+	font-style: bold;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: center;
+}
+h5 {
+	color:$color-2;
+	font-style: bold;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+	text-align: center;
+	width: 100%;
+}
+ul {
+	li {
+		display: inline;
+		padding: 10px;
+		color: $color-1;
+		@include FontStyle();
+		font-size: 17px;
+		justify-content: center;
+		text-decoration: none;
+	}
+}
+.video {
+	width: 80%;
+	text-align: justify;
+	margin: 40px auto;
+	display: none;
+}
+.menu {
+	ul {
+		text-align: center;
+		color: $color-1;
+		font-style: bold;
+		font-family: 'Bebas Neue', sans-serif;
+		font-weight: 500;
+		font-size: 27px;
+	}
+}
+a {
+	text-decoration: none;
+	color: $color-2;
+}
+.entrar {
+	text-align: center;
+	color: $color-1;
+	font-size: 27px;
+	padding: 27px;
+}
+.mapa {
+	text-align: center;
+	width: 100%;
+}
+.ubicacion {
+	text-align: center;
+	font-size: 37px;
+	width: 100%;
+}
+.reserva1 {
+	color: $color-1;
+	@include FontStyle();
+	font-size: 20px;
+	display: flex;
+	padding: 10px;
+	margin: 100px;
+	justify-content: center;
+	transition: all;
+	&:hover {
+		color: #7b4952;
+	}
+}
+.reserva {
+	color: $color-1;
+	@include FontStyle();
+	@extend %size;
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	transition: all;
+	&:hover {
+		color: #7b4952;
+	}
+}
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+	align-content: end;
+	text-align: center;
+	div {
+		margin: 0 auto;
+		color: $color-2;
+		@include FontStyle();
+		font-weight: 500;
+		font-size: 15px;
+	}
+}
+.grid2 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 100%;
+	align-content: end;
+	text-align: center;
+}
+#tabla-perfos {
+	margin: 0 auto;
+	color: $color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 20px;
+}
+#tabla-fecha {
+	margin: 0 auto;
+}
+.dias {
+	color: $color-2;
+	@include FontStyle();
+	font-weight: 500;
+	font-size: 15px;
+}
+.musica {
+	text-align: right;
+	position: sticky;
+	top: 0%;
+	border-radius: 10px;
+	display: none;
+}
+.preguntas {
+	text-align: center;
+	@include FontStyle();
+	color:$color-1;
+	font-size: 25px;
+	margin: 10px auto;
+}
+.contenedor {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-column-gap: 5px;
+	grid-row-gap: 0px;
+	width: 70%;
+}
+.img1 {
+	display: none;
+}
+.img2 {
+	display: none;
+}
+.img3 {
+	display: none;
+}
+.img4 {
+	display: none;
+}
+.img10 {
+	display: none;
+}
+.videosaritos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+#sucursales {
+	.sucur {
+		border-style: solid;
+		border-color: $color-1;
+		color:$color-2;
+	}
+}
+h1 {
+	font-size: 40px;
+}
+p.card-text {
+	color: $color-2;
+	font-style: normal;
+	font-family: 'Bebas Neue', sans-serif;
+}
+h6 {
+	.card-title {
+		color: $color-1;
+		@include FontStyle();
+		@extend %size;
+	}
+}
+@media screen and (min-width: 375px) {
+	body {
+		width: 375px;
+	}
+	.grid {
+		div {
+			text-align: center;
+			width: 75px;
+			display: inline;
+		}
+	}
+	.contenedor {
+		width: 375px;
+	}
+}

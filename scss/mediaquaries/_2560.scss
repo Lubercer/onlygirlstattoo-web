@@ -1,0 +1,112 @@
+
+@media screen and (min-width: 2560px) {
+	.alert-warning {
+		width: 2560px;
+	}
+	body {
+		width: 2560px;
+	}
+	h1 {
+		font-size: 250px;
+	}
+	.reserva1 {
+		font-size: 60px;
+	}
+	.grid {
+		width: 2560px;
+		div {
+			font-size: 35px;
+			display: block;
+		}
+	}
+	div.grid2 {
+		width: 2560px;
+	}
+	.video {
+		display: none;
+	}
+	.contenedor {
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 2px;
+		align-items: center;
+		width: 2560px;
+	}
+	ul {
+		li {
+			font-size: 48px;
+		}
+	}
+	.reserva {
+		font-size: 65px;
+	}
+	.tituloreserva {
+		font-size: 75px;
+	}
+	.fecha-titulo {
+		font-size: 55px;
+		margin: 33px;
+	}
+	thead {
+		font-size: 45px;
+	}
+	tbody {
+		font-size: 38px;
+	}
+	h6 {
+		font-size: 30px;
+	}
+	div {
+		.opciones {
+			font-size: 38px;
+			margin: 15px;
+			border-radius: 15px;
+		}
+	}
+	th {
+		font-size: 45px;
+	}
+	td {
+		font-size: 30px;
+	}
+	.opciones {
+		font-size: 50px;
+	}
+	option {
+		font-size: 30px;
+	}
+	table {
+		border-spacing: 10px;
+	}
+	#sucursales {
+		.sucur {
+			font-size: 85px;
+		}
+	}
+	.preguntas {
+		font-size: 55px;
+		font-size: 87px;
+	}
+	.mapa {
+		width: 2560px;
+		height: 400;
+		align-content: center;
+	}
+	h5 {
+		width: 2560px;
+		font-size: 40px;
+	}
+	.ubicacion {
+		width: 2560px;
+		font-size: 70px;
+	}
+	.videosaritos {
+		width: 2560px;
+		align-content: center;
+	}
+	main {
+		.videosaritos {
+			width: 2560px;
+		}
+	}
+}

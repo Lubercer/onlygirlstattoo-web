@@ -1,0 +1,125 @@
+
+@media screen and (min-width: 425px) {
+	body {
+		width: 425px;
+	}
+	.contenedor {
+		width: 425px;
+		justify-content: center;
+	}
+	div.row {
+		text-align: center;
+		font-size: 15px;
+	}
+}
+@media screen and (min-width: 480px) {
+	body {
+		width: 480px;
+	}
+	h1 {
+		font-size: 67px;
+	}
+	.reserva1 {
+		margin: 50px;
+	}
+	.video {
+		display: inline;
+		text-align: center;
+	}
+	.grid {
+		div {
+			font-size: 17px;
+		}
+	}
+	.contenedor {
+		justify-items: center;
+	}
+	.tituloreserva {
+		font-size: 38px;
+	}
+	#tabla-perfos {
+		font-size: 27px;
+	}
+	.fecha {
+		font-size: 27px;
+	}
+	.opciones {
+		font-size: 25px;
+	}
+	ul {
+		li {
+			font-size: 22px;
+		}
+	}
+	h5 {
+		font-size: 21px;
+	}
+	.preguntas {
+		font-size: 35px;
+	}
+	.ubi {
+		width: 480px;
+	}
+	.mapa {
+		width: 480px;
+	}
+	#sucursales {
+		.sucur {
+			font-style: italic;
+			color: rgb(121, 113, 119);
+			font-size: 35px;
+			border-style: solid;
+			border-color: rgb(223, 186, 193);
+		}
+	}
+}
+@media screen and (min-width: 484px) {
+	body {
+		width: 484px;
+	}
+	main {
+		.videosaritos {
+			width: 478px;
+		}
+	}
+	.ubi {
+		width: 478px;
+	}
+	h5 {
+		width: 478px;
+	}
+	.ubicacion {
+		width: 478px;
+	}
+	div.grid2 {
+		width: 478px;
+	}
+	main.contenedor {
+		width: 478px;
+	}
+}
+@media screen and (min-width: 494px) {
+	body {
+		width: 494px;
+	}
+	main {
+		.videosaritos {
+			width: 494px;
+		}
+	}
+	.ubi {
+		width: 494px;
+	}
+	h5 {
+		width: 494px;
+	}
+	.ubicacion {
+		width: 494px;
+	}
+	div.grid2 {
+		width: 494px;
+	}
+	main.contenedor {
+		width: 494px;
+	}
+}

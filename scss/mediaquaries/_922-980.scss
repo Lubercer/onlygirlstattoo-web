@@ -1,0 +1,66 @@
+@media screen and (min-width: 922px) {
+	.carousel-inner{
+	 height: 200px;
+	}
+	.alert-warning {
+		width: 922px;
+	}
+	body {
+		width: 922px;
+	}
+	main {
+		.videosaritos {
+			width: 922px;
+		}
+	}
+	.ubi {
+		width: 922px;
+	}
+	h5 {
+		width: 922px;
+	}
+	.ubicacion {
+		width: 922px;
+	}
+	div.grid2 {
+		width: 922px;
+	}
+	main.contenedor {
+		width: 922px;
+	}
+}
+@media screen and (min-width: 980px) {
+	.alert-warning {
+		width: 980px;
+	}
+	.contenedor {
+		width: 960px;
+	}
+	.grid {
+		width: 960px;
+		div {
+			font-size: 25px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 980px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 960px;
+		align-content: center;
+	}
+	.grid2 {
+		width: 980px;
+	}
+	.ubicacion {
+		width: 980px;
+	}
+	h5 {
+		width: 980px;
+	}
+}
