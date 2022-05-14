@@ -1,7 +1,6 @@
 
 @import "bootstrap/bootstrap";
 @import "pagina/compilado";
-
 @keyframes luna {
 	0% {
 		opacity: 1;
@@ -22,8 +21,7 @@ img {
 }
 strong {
 	color: $color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 25px;
 	width: 100%;
@@ -51,37 +49,32 @@ body {
 }
 h4 {
 	color: #292528;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 27px;
 }
 span {
 	color: $color-1;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 10px;
 }
 h3 {
 	color: $color-1;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 35;
 	text-align: center;
 }
 .titulo {
 	color: $color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 35px;
 }
 .tabla2 {
 	color: $color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 27px;
 	text-align: center;
@@ -89,7 +82,7 @@ h3 {
 .boton0 {
 	text-align: right;
 	color:$color-1;
-	font-style: bold;
+	font-style: map-get($map: $styles, $key:"bold" );
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 500;
 	font-size: 27px;
@@ -98,14 +91,14 @@ h3 {
 .boton {
 	text-align: center;
 	color: $color-1;
-	font-style: bold;
+	font-style: map-get($map: $styles, $key:"bold" );
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 500;
 	font-size: 27px;
 }
 .boton2 {
-	color:  $color-1;
-	font-style: bold;
+	color: $color-1;
+	font-style:map-get($map: $styles, $key:"bold" );
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 500;
 	font-size: 27px;
@@ -113,20 +106,17 @@ h3 {
 }
 h2 {
 	color:$color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 27px;
 	text-align: center;
-	font-style: italic;
 	color:  $color-1;
 	font-size: 10px;
 	padding: 27px;
 	.tituloreserva {
 		text-align: center;
 		color: $color-1;
-		font-style: italic;
-		font-family: 'Bebas Neue', sans-serif;
+		@include FontStyle();
 		font-weight: 500;
 		font-size: 18px;
 	}
@@ -134,37 +124,32 @@ h2 {
 .tituloreserva {
 	text-align: center;
 	color: $color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 30px;
 	animation: luna 1s linear 0s infinite normal forwards;
 }
 .fecha-titulo {
 	color: $color-1;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 27px;
 }
 .fecha {
 	color:  $color-1;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 19px;
 }
 .fecha2 {
 	color:$color-2;
-	font-style: bold;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 17px;
 }
 .opciones {
 	color:$color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 19px;
 	text-align: center;
@@ -175,7 +160,7 @@ h2 {
 }
 .nombre {
 	color: $color-2;
-	font-style: bold;
+	font-style: map-get($map: $styles, $key:"bold" );
 	font-family: 'Bebas Neue', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
@@ -209,8 +194,7 @@ ul {
 		display: inline;
 		padding: 10px;
 		color: $color-1;
-		font-style: italic;
-		font-family: 'Bebas Neue', sans-serif;
+		@include FontStyle();
 		font-size: 17px;
 		justify-content: center;
 		text-decoration: none;
@@ -253,8 +237,7 @@ a {
 }
 .reserva1 {
 	color: $color-1;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-size: 20px;
 	display: flex;
 	padding: 10px;
@@ -267,9 +250,8 @@ a {
 }
 .reserva {
 	color: $color-1;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
-	font-size: 23px;
+	@include FontStyle();
+	@extend %size;
 	display: flex;
 	padding: 10px;
 	justify-content: center;
@@ -287,8 +269,7 @@ a {
 	div {
 		margin: 0 auto;
 		color: $color-2;
-		font-style: italic;
-		font-family: 'Bebas Neue', sans-serif;
+		@include FontStyle();
 		font-weight: 500;
 		font-size: 15px;
 	}
@@ -303,8 +284,7 @@ a {
 #tabla-perfos {
 	margin: 0 auto;
 	color: $color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 20px;
 }
@@ -313,8 +293,7 @@ a {
 }
 .dias {
 	color: $color-2;
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;
+	@include FontStyle();
 	font-weight: 500;
 	font-size: 15px;
 }
@@ -327,8 +306,8 @@ a {
 }
 .preguntas {
 	text-align: center;
-	font-style: italic;
-	color:  $color-1;
+	@include FontStyle();
+	color:$color-1;
 	font-size: 25px;
 	margin: 10px auto;
 }
@@ -379,9 +358,8 @@ p.card-text {
 h6 {
 	.card-title {
 		color: $color-1;
-		font-style: italic;
-		font-family: 'Bebas Neue', sans-serif;
-		font-size: 23px;
+		@include FontStyle();
+		@extend %size;
 	}
 }
 @media screen and (min-width: 375px) {

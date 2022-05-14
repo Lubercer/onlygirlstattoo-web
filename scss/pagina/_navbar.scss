@@ -1,17 +1,17 @@
 .nav-pills {
 	.nav-link.active {
-		color: #ffffff;
-		background-color: rgb(121, 113, 119);
+		color:$color-1;
+		background-color: $color-2;
 	}
 	.show {
 		>.nav-link {
 			color: #ffffff;
-			background-color: rgb(121, 113, 119);
+			background-color:$color-2;
 		}
 	}
 }
 .nav-link {
-	color: #dfbac1;
+	color: $color-1;
 }
 .nav-item {
 	>a {
