@@ -8172,6 +8172,9 @@ a {
   font-size: 25px;
   margin: 10px auto; }
 
+.nav {
+  width: 100%; }
+
 .contenedor {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -8498,6 +8501,275 @@ h6 .card-title, .h6 .card-title {
   main.contenedor {
     width: 692px; } }
 
+@media screen and (min-width: 704px) {
+  .alert-warning {
+    width: 704px; }
+  body {
+    width: 704px; }
+  .contenedor {
+    width: 704px; }
+  .grid {
+    width: 704px; }
+    .grid div {
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 704px;
+    align-content: center; }
+  .mapa {
+    width: 704px;
+    align-content: center; }
+  .grid2 {
+    width: 704px; }
+  .ubicacion {
+    width: 704px; }
+  h5, .h5 {
+    width: 704px; } }
+
+@media screen and (min-width: 710px) {
+  .alert-warning {
+    width: 710px; }
+  .contenedor {
+    width: 710px; }
+  .grid {
+    width: 710px; }
+    .grid div {
+      font-size: 20px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 710px;
+    align-content: center; }
+  .mapa {
+    width: 710px;
+    align-content: center; }
+  div.grid2 {
+    width: 710px; }
+  .ubicacion {
+    width: 710px; }
+  h5, .h5 {
+    width: 710px; } }
+
+@media screen and (min-width: 716px) {
+  .alert-warning {
+    width: 716px; }
+  body {
+    width: 716px; }
+  .grid div {
+    width: 716px; }
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 716px;
+    text-align: center; }
+  main.contenedor {
+    width: 716px; }
+  main .videosaritos {
+    width: 716px;
+    display: inline; }
+  .mapa {
+    width: 716px;
+    align-content: center; }
+  .ubicacion {
+    width: 716px;
+    font-size: 40px; }
+  h5, .h5 {
+    width: 716px; } }
+
+@media screen and (min-width: 726px) {
+  .alert-warning {
+    width: 726px; }
+  body {
+    width: 726px; }
+  .contenedor {
+    width: 726px; }
+  .grid {
+    width: 726px; }
+    .grid div {
+      font-size: 20px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 726px;
+    align-content: center; }
+  .mapa {
+    width: 726px;
+    align-content: center; }
+  .grid2 {
+    width: 726px; }
+  .ubicacion {
+    width: 726px; }
+  h5, .h5 {
+    width: 726px; } }
+
+@media screen and (min-width: 754px) {
+  .alert-warning {
+    width: 754px; }
+  body {
+    width: 754px; }
+  main.contenedor {
+    width: 734px; }
+  .grid div {
+    width: 754px; }
+  .videosaritos {
+    width: 754px;
+    align-content: center; }
+  .mapa {
+    width: 754px;
+    align-content: center; }
+  div.container.justify-content-center {
+    font-size: 65px; } }
+
+@media screen and (min-width: 768px) {
+  .alert-warning {
+    width: 768px; }
+  h1, .h1 {
+    font-size: 87px; }
+  .contenedor {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 2px;
+    align-items: center;
+    width: 768px; }
+  .img10 {
+    display: none; }
+  .img5 {
+    display: inline; }
+  .img4 {
+    display: inline; }
+  .img3 {
+    display: inline; }
+  .img2 {
+    display: inline; }
+  .img1 {
+    display: inline; }
+  ul li {
+    font-size: 27px; }
+  #sucursales .sucur {
+    font-size: 45px; }
+  .dias {
+    font-size: 20px;
+    font-size: 22px; }
+  div.row {
+    font-size: 25px;
+    width: 768px; }
+  #tabla-perfos {
+    font-size: 27px; }
+  .fecha {
+    font-size: 28px; }
+  .reserva {
+    font-size: 27px; }
+  main.contenedor {
+    justify-content: center;
+    align-content: center;
+    width: 768px; }
+  div.videosaritos {
+    width: 768px; }
+  main.mapa {
+    width: 768px; } }
+
+@media screen and (min-width: 850px) {
+  .alert-warning {
+    width: 850px; }
+  body {
+    width: 850px; }
+  main .videosaritos {
+    width: 850px; }
+  .ubi {
+    width: 850px; }
+  h5, .h5 {
+    width: 850px; }
+  .ubicacion {
+    width: 850px; }
+  div.grid2 {
+    width: 850px; }
+  main.contenedor {
+    width: 850px; } }
+
+@media screen and (min-width: 858px) {
+  .alert-warning {
+    width: 858px; }
+  body {
+    width: 858px; }
+  main .videosaritos {
+    width: 858px; }
+  .ubi {
+    width: 858px; }
+  h5, .h5 {
+    width: 858px; }
+  .ubicacion {
+    width: 858px; }
+  div.grid2 {
+    width: 858px; }
+  main.contenedor {
+    width: 858px; } }
+
+@media screen and (min-width: 883px) {
+  .alert-warning {
+    width: 883px; }
+  header {
+    width: 883px; }
+  h3.sucur, .sucur.h3 {
+    width: 883px; }
+  .contenedor {
+    width: 883px; }
+  div.row {
+    width: 883px; }
+  main .videosaritos {
+    width: 883px; }
+  .mapa {
+    width: 883px; }
+  .ubicacion {
+    width: 883px; }
+  h5, .h5 {
+    width: 883px; }
+  div.container.justify-content-center {
+    width: 883px; } }
+
+@media screen and (min-width: 922px) {
+  .carousel-inner {
+    height: 200px; }
+  .alert-warning {
+    width: 922px; }
+  body {
+    width: 922px; }
+  main .videosaritos {
+    width: 922px; }
+  .ubi {
+    width: 922px; }
+  h5, .h5 {
+    width: 922px; }
+  .ubicacion {
+    width: 922px; }
+  div.grid2 {
+    width: 922px; }
+  main.contenedor {
+    width: 922px; } }
+
+@media screen and (min-width: 980px) {
+  .alert-warning {
+    width: 980px; }
+  .contenedor {
+    width: 960px; }
+  .grid {
+    width: 960px; }
+    .grid div {
+      font-size: 25px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 980px;
+    align-content: center; }
+  .mapa {
+    width: 960px;
+    align-content: center; }
+  .grid2 {
+    width: 980px; }
+  .ubicacion {
+    width: 980px; }
+  h5, .h5 {
+    width: 980px; } }
+
 @media screen and (min-width: 1000px) {
   .alert-warning {
     width: 1000px; } }
@@ -8544,6 +8816,28 @@ h6 .card-title, .h6 .card-title {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2px;
     align-items: center; } }
+
+@media screen and (min-width: 1029px) {
+  .nav {
+    width: 1029px; }
+  .alert-warning {
+    width: 1029px; }
+  body {
+    width: 1029px; }
+  .contenedor {
+    width: 1029px; }
+  div.row {
+    width: 1029px; }
+  div.videosaritos {
+    width: 1029px;
+    align-content: center; }
+  .mapa {
+    width: 1029px;
+    align-content: center; }
+  .ubicacion {
+    width: 1029px; }
+  h5, .h5 {
+    width: 1029px; } }
 
 @media screen and (min-width: 1031px) {
   .alert-warning {

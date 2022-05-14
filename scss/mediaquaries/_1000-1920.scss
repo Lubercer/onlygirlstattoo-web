@@ -64,6 +64,37 @@
 		align-items: center;
 	}
 }
+@media screen and (min-width: 1029px) {
+	.nav {
+		width: 1029px;
+	}
+	.alert-warning {
+		width:1029px;
+	}
+	body {
+		width: 1029px;
+	}
+	.contenedor {
+		width: 1029px;
+	}
+	div.row {
+		width: 1029px;
+	}
+	div.videosaritos {
+		width: 1029px;
+		align-content: center;
+	}
+	.mapa {
+		width: 1029px;
+		align-content: center;
+	}
+	.ubicacion {
+		width: 1029px;
+	}
+	h5 {
+		width: 1029px;
+	}
+}
 @media screen and (min-width: 1031px) {
 	.alert-warning {
 		width: 1031px;
