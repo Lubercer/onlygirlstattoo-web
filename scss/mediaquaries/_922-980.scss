@@ -34,10 +34,10 @@
 		width: 980px;
 	}
 	.contenedor {
-		width: 960px;
+		width: 980px;
 	}
 	.grid {
-		width: 960px;
+		width: 980px;
 		div {
 			font-size: 25px;
 			text-align: center;
@@ -51,7 +51,7 @@
 		}
 	}
 	.mapa {
-		width: 960px;
+		width: 980px;
 		align-content: center;
 	}
 	.grid2 {
@@ -62,5 +62,40 @@
 	}
 	h5 {
 		width: 980px;
+	}
+}
+@media screen and (min-width: 985px) {
+	.alert-warning {
+		width: 980px;
+	}
+	.contenedor {
+		width: 985px;
+	}
+	.grid {
+		width: 985px;
+		div {
+			font-size: 25px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 985px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 985px;
+		align-content: center;
+	}
+	.grid2 {
+		width: 985px;
+	}
+	.ubicacion {
+		width: 985px;
+	}
+	h5 {
+		width: 985px;
 	}
 }

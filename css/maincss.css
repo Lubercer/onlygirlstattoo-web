@@ -7810,7 +7810,7 @@ textarea.form-control-lg {
     display: none !important; } }
 
 .header {
-  width: 300px;
+  width: 100%;
   transition: all 1s ease;
   margin-left: 760px; }
 
@@ -7854,6 +7854,10 @@ footer {
 
 .reserva, h6 .card-title, .h6 .card-title {
   font-size: 23px; }
+
+.navbar {
+  text-align: center;
+  width: 100%; }
 
 @keyframes luna {
   0% {
@@ -8171,9 +8175,6 @@ a {
   color: #dfbac1;
   font-size: 25px;
   margin: 10px auto; }
-
-.nav {
-  width: 100%; }
 
 .contenedor {
   display: grid;
@@ -8668,6 +8669,24 @@ h6 .card-title, .h6 .card-title {
   main.mapa {
     width: 768px; } }
 
+@media screen and (min-width: 843px) {
+  .alert-warning {
+    width: 843px; }
+  body {
+    width: 843px; }
+  main .videosaritos {
+    width: 843px; }
+  .ubi {
+    width: 843px; }
+  h5, .h5 {
+    width: 843px; }
+  .ubicacion {
+    width: 843px; }
+  div.grid2 {
+    width: 843px; }
+  main.contenedor {
+    width: 843px; } }
+
 @media screen and (min-width: 850px) {
   .alert-warning {
     width: 850px; }
@@ -8713,8 +8732,6 @@ h6 .card-title, .h6 .card-title {
     width: 883px; }
   .contenedor {
     width: 883px; }
-  div.row {
-    width: 883px; }
   main .videosaritos {
     width: 883px; }
   .mapa {
@@ -8722,8 +8739,6 @@ h6 .card-title, .h6 .card-title {
   .ubicacion {
     width: 883px; }
   h5, .h5 {
-    width: 883px; }
-  div.container.justify-content-center {
     width: 883px; } }
 
 @media screen and (min-width: 922px) {
@@ -8750,9 +8765,9 @@ h6 .card-title, .h6 .card-title {
   .alert-warning {
     width: 980px; }
   .contenedor {
-    width: 960px; }
+    width: 980px; }
   .grid {
-    width: 960px; }
+    width: 980px; }
     .grid div {
       font-size: 25px;
       text-align: center;
@@ -8761,7 +8776,7 @@ h6 .card-title, .h6 .card-title {
     width: 980px;
     align-content: center; }
   .mapa {
-    width: 960px;
+    width: 980px;
     align-content: center; }
   .grid2 {
     width: 980px; }
@@ -8769,6 +8784,30 @@ h6 .card-title, .h6 .card-title {
     width: 980px; }
   h5, .h5 {
     width: 980px; } }
+
+@media screen and (min-width: 985px) {
+  .alert-warning {
+    width: 980px; }
+  .contenedor {
+    width: 985px; }
+  .grid {
+    width: 985px; }
+    .grid div {
+      font-size: 25px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 985px;
+    align-content: center; }
+  .mapa {
+    width: 985px;
+    align-content: center; }
+  .grid2 {
+    width: 985px; }
+  .ubicacion {
+    width: 985px; }
+  h5, .h5 {
+    width: 985px; } }
 
 @media screen and (min-width: 1000px) {
   .alert-warning {
@@ -8818,8 +8857,6 @@ h6 .card-title, .h6 .card-title {
     align-items: center; } }
 
 @media screen and (min-width: 1029px) {
-  .nav {
-    width: 1029px; }
   .alert-warning {
     width: 1029px; }
   body {
@@ -8847,7 +8884,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1031px; }
   div.row {
-    width: 1031px;
     width: 1031px; }
   div.videosaritos {
     width: 1031px;
@@ -8868,7 +8904,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1051px; }
   div.row {
-    width: 1051px;
     width: 1051px; }
   div.videosaritos {
     width: 1051px;
@@ -8889,7 +8924,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1054px; }
   div.row {
-    width: 1054px;
     width: 1054px; }
   div.videosaritos {
     width: 1054px;
@@ -8903,12 +8937,13 @@ h6 .card-title, .h6 .card-title {
     width: 1054px; } }
 
 @media screen and (min-width: 1068px) {
+  body {
+    width: 1068px; }
   .alert-warning {
     width: 1068px; }
   .contenedor {
     width: 1068px; }
   div.row {
-    width: 1068px;
     width: 1068px; }
   main .videosaritos {
     width: 1068px;
@@ -8919,15 +8954,16 @@ h6 .card-title, .h6 .card-title {
   .ubicacion {
     width: 1068px; }
   h5, .h5 {
+    width: 1068px; }
+  header {
     width: 1068px; } }
 
 @media screen and (min-width: 1115px) {
   .alert-warning {
-    width: 1130px; }
+    width: 1115px; }
   .contenedor {
     width: 1115px; }
   div.row {
-    width: 1115px;
     width: 1115px; }
   main .videosaritos {
     width: 1115px;
@@ -8946,7 +8982,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1130px; }
   div.row {
-    width: 1130px;
     width: 1130px; }
   main .videosaritos {
     width: 1130px;
@@ -8985,7 +9020,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1178px; }
   div.row {
-    width: 1178px;
     width: 1178px; }
   main .videosaritos {
     width: 1178px;
@@ -9016,7 +9050,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1218px; }
   div.row {
-    width: 1218px;
     width: 1218px; }
   main .videosaritos {
     width: 1218px; }
@@ -9087,7 +9120,6 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 1270px; }
   div.row {
-    width: 1270px;
     width: 1270px; }
   main .videosaritos {
     width: 1270px; }
@@ -9104,7 +9136,6 @@ h6 .card-title, .h6 .card-title {
   main.contenedor {
     width: 1280px; }
   div.row {
-    width: 1280px;
     width: 1280px; }
   main .videosaritos {
     width: 1280px; }
@@ -9183,7 +9214,6 @@ h6 .card-title, .h6 .card-title {
   body {
     width: 1423px; }
   div.row {
-    width: 1423px;
     width: 1423px; }
   div.videosaritos {
     width: 1423px;
@@ -9196,6 +9226,20 @@ h6 .card-title, .h6 .card-title {
     width: 1423px; }
   h6.card-title, .card-title.h6 {
     font-size: 31px; } }
+
+@media screen and (min-width: 1426px) {
+  .alert-warning {
+    width: 1426px; }
+  body {
+    width: 1426px; }
+  .contenedor {
+    width: 1426px; }
+  main .contenedor {
+    width: 1426px; }
+  main .videosaritos {
+    width: 1426px; }
+  main .mapa {
+    width: 1426px; } }
 
 @media screen and (min-width: 1432px) {
   .alert-warning {
@@ -9221,7 +9265,8 @@ h6 .card-title, .h6 .card-title {
   div.row {
     font-size: 27px;
     width: 1440px;
-    width: 1440px; }
+    justify-content: center;
+    text-align: center; }
   h5, .h5 {
     width: 1440px;
     font-size: 30px; }
@@ -9259,13 +9304,28 @@ h6 .card-title, .h6 .card-title {
   footer {
     width: 1442px; } }
 
+@media screen and (min-width: 1483px) {
+  .alert-warning {
+    width: 1483px; }
+  body {
+    width: 1483px; }
+  .contenedor {
+    width: 1483px; }
+  main .videosaritos {
+    width: 1483px;
+    align-content: center; }
+  .mapa {
+    width: 1483px;
+    align-content: center; }
+  footer {
+    width: 1483px; } }
+
 @media screen and (min-width: 1628px) {
   .alert-warning {
     width: 1628px; }
   body {
     width: 1628px; }
   div.row {
-    width: 1628px;
     width: 1628px; }
   div.videosaritos {
     width: 1628px;
@@ -9285,7 +9345,6 @@ h6 .card-title, .h6 .card-title {
   main.contenedor {
     width: 1642px; }
   div.row {
-    width: 1642px;
     width: 1642px; }
   main .videosaritos {
     width: 1642px; }

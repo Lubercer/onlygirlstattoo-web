@@ -65,9 +65,6 @@
 	}
 }
 @media screen and (min-width: 1029px) {
-	.nav {
-		width: 1029px;
-	}
 	.alert-warning {
 		width:1029px;
 	}
@@ -107,7 +104,6 @@
 	}
 	div.row {
 		width: 1031px;
-		width: 1031px;
 	}
 	div.videosaritos {
 		width: 1031px;
@@ -135,7 +131,6 @@
 		width: 1051px;
 	}
 	div.row {
-		width: 1051px;
 		width: 1051px;
 	}
 	div.videosaritos {
@@ -165,7 +160,6 @@
 	}
 	div.row {
 		width: 1054px;
-		width: 1054px;
 	}
 	div.videosaritos {
 		width: 1054px;
@@ -183,6 +177,9 @@
 	}
 }
 @media screen and (min-width: 1068px) {
+	body {
+		width: 1068px;
+	}
 	.alert-warning {
 		width: 1068px;
 	}
@@ -190,7 +187,6 @@
 		width: 1068px;
 	}
 	div.row {
-		width: 1068px;
 		width: 1068px;
 	}
 	main {
@@ -209,17 +205,20 @@
 	h5 {
 		width: 1068px;
 	}
+	header {
+		width: 1068px;
+	}
 }
 @media screen and (min-width: 1115px) {
 	.alert-warning {
-		width: 1130px;
+		width: 1115px;
 	}
 	.contenedor {
 		width: 1115px;
 	}
 	div.row {
 		width: 1115px;
-		width: 1115px;
+
 	}
 	main {
 		.videosaritos {
@@ -246,7 +245,6 @@
 		width: 1130px;
 	}
 	div.row {
-		width: 1130px;
 		width: 1130px;
 	}
 	main {
@@ -306,7 +304,6 @@
 	}
 	div.row {
 		width: 1178px;
-		width: 1178px;
 	}
 	main {
 		.videosaritos {
@@ -352,7 +349,6 @@
 		width: 1218px;
 	}
 	div.row {
-		width: 1218px;
 		width: 1218px;
 	}
 	main {
@@ -463,7 +459,6 @@
 	}
 	div.row {
 		width: 1270px;
-		width: 1270px;
 	}
 	main {
 		.videosaritos {
@@ -488,7 +483,6 @@
 		width: 1280px;
 	}
 	div.row {
-		width: 1280px;
 		width: 1280px;
 	}
 	main {
@@ -611,7 +605,6 @@
 	}
 	div.row {
 		width: 1423px;
-		width: 1423px;
 	}
 	div.videosaritos {
 		width: 1423px;
@@ -628,6 +621,28 @@
 	}
 	h6.card-title {
 		font-size: 31px;
+	}
+}
+@media screen and (min-width: 1426px) {
+	.alert-warning {
+		width: 1426px;
+	}
+	body {
+		width: 1426px;
+	}
+	.contenedor {
+		width: 1426px;
+	}
+	main {
+		.contenedor {
+			width: 1426px;
+		}
+		.videosaritos {
+			width: 1426px;
+		}
+		.mapa {
+			width: 1426px;
+		}
 	}
 }
 @media screen and (min-width: 1432px) {
@@ -665,7 +680,8 @@
 	div.row {
 		font-size: 27px;
 		width: 1440px;
-		width: 1440px;
+		justify-content: center;
+		text-align: center;
 	}
 	h5 {
 		width: 1440px;
@@ -721,6 +737,30 @@
 		width: 1442px;
 	}
 }
+@media screen and (min-width: 1483px) {
+	.alert-warning {
+		width: 1483px;
+	}
+	body {
+		width: 1483px;
+	}
+	.contenedor {
+		width: 1483px;
+	}
+	main {
+		.videosaritos {
+			width: 1483px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 1483px;
+		align-content: center;
+	}
+	footer {
+		width: 1483px;
+	}
+}
 @media screen and (min-width: 1628px) {
 	.alert-warning {
 		width: 1628px;
@@ -729,7 +769,6 @@
 		width: 1628px;
 	}
 	div.row {
-		width: 1628px;
 		width: 1628px;
 	}
 	div.videosaritos {
@@ -757,7 +796,6 @@
 		width: 1642px;
 	}
 	div.row {
-		width: 1642px;
 		width: 1642px;
 	}
 	main {
