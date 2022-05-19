@@ -29,6 +29,30 @@
 		width: 922px;
 	}
 }
+@media screen and (min-width: 966px) {
+	.alert-warning {
+		width: 966px;
+	}
+	body {
+		width: 966px;
+	}
+	.contenedor {
+		width: 966px;
+	}
+	main {
+		.videosaritos {
+			width: 966px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 966px;
+		align-content: center;
+	}
+	footer {
+		width: 966px;
+	}
+}
 @media screen and (min-width: 980px) {
 	.alert-warning {
 		width: 980px;

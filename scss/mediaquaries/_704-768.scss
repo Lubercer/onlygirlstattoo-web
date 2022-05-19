@@ -173,6 +173,7 @@
 	}
 	div.container.justify-content-center {
 		font-size: 65px;
+		width: 754px;
 	}
 }
 @media screen and (min-width: 768px) {
@@ -244,5 +245,37 @@
 	}
 	main.mapa {
 		width: 768px;
+	}
+}
+@media screen and (min-width: 778px) {
+	.alert-warning {
+		width: 778px;
+	}
+	body {
+		width: 778px;
+	}
+	main.contenedor {
+		width: 778px;
+	}
+	.grid {
+		div {
+			width: 778px;
+		}
+	}
+	.videosaritos {
+		width: 778px;
+		align-content: center;
+	}
+	.mapa {
+		width: 778px;
+		align-content: center;
+	}
+	div.container.justify-content-center {
+		font-size: 65px;
+	}
+	main {
+		.videosaritos {
+			width: 778px;
+		}
 	}
 }

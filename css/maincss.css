@@ -8233,15 +8233,228 @@ h6 .card-title, .h6 .card-title {
   .contenedor {
     width: 375px; } }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 392px) {
+  .alert-warning {
+    width: 392px; }
+  body {
+    width: 392px; }
+  .contenedor {
+    width: 392px; }
+  main .videosaritos {
+    width: 392px;
+    align-content: center; }
+  .mapa {
+    width: 392px;
+    align-content: center; }
+  footer {
+    width: 392px; } }
+
+@media screen and (min-width: 398px) {
+  .alert-warning {
+    width: 398px; }
+  body {
+    width: 398px; }
+  .contenedor {
+    width: 398px; }
+  main .videosaritos {
+    width: 398px;
+    align-content: center; }
+  .mapa {
+    width: 398px;
+    align-content: center; }
+  footer {
+    width: 398px; } }
+
+@media screen and (min-width: 406px) {
+  .alert-warning {
+    width: 406px; }
+  body {
+    width: 406px; }
+  .contenedor {
+    width: 406px; }
+  main .videosaritos {
+    width: 406px;
+    align-content: center; }
+  .mapa {
+    width: 406px;
+    align-content: center; }
+  footer {
+    width: 406px; } }
+
+@media screen and (min-width: 408px) {
+  body {
+    width: 408px; }
+  main .videosaritos {
+    width: 408px; }
+  .ubi {
+    width: 408px; }
+  h5, .h5 {
+    width: 408px; }
+  .ubicacion {
+    width: 408px; }
+  div.grid2 {
+    width: 408px; }
+  main.contenedor {
+    width: 408px; } }
+
+@media screen and (min-width: 425px) and (min-width: 425px) {
+  .alert-warning {
+    width: 425px; }
   body {
     width: 425px; }
   .contenedor {
+    width: 425px; }
+  main .videosaritos {
     width: 425px;
-    justify-content: center; }
+    align-content: center; }
+  .mapa {
+    width: 425px;
+    align-content: center; }
+  footer {
+    width: 425px; } }
+
+@media screen and (min-width: 425px) {
   div.row {
     text-align: center;
     font-size: 15px; } }
+
+@media screen and (min-width: 434px) {
+  .alert-warning {
+    width: 434px; }
+  body {
+    width: 434px; }
+  main.contenedor {
+    width: 434px;
+    align-items: center; }
+  main .videosaritos {
+    width: 434px;
+    align-content: center; }
+  .mapa {
+    width: 434px;
+    align-content: center; }
+  footer {
+    width: 434px; } }
+
+@media screen and (min-width: 436px) {
+  .alert-warning {
+    width: 436px; }
+  body {
+    width: 436px; }
+  .contenedor {
+    width: 436px; }
+  main .videosaritos {
+    width: 436px;
+    align-content: center; }
+  .mapa {
+    width: 436px;
+    align-content: center; }
+  footer {
+    width: 436px; } }
+
+@media screen and (min-width: 440px) {
+  body {
+    width: 440px; }
+  main .videosaritos {
+    width: 440px; }
+  .ubi {
+    width: 440px; }
+  h5, .h5 {
+    width: 440px; }
+  .ubicacion {
+    width: 440px; }
+  div.grid2 {
+    width: 440px; }
+  main.contenedor {
+    width: 440px; } }
+
+@media screen and (min-width: 451px) {
+  .alert-warning {
+    width: 451px; }
+  body {
+    width: 451px; }
+  main.contenedor {
+    width: 451px;
+    align-items: center; }
+  main .videosaritos {
+    width: 451px;
+    align-content: center; }
+  .mapa {
+    width: 451px;
+    align-content: center; }
+  footer {
+    width: 451px; }
+  div.row {
+    font-size: 20px; }
+  .reserva1 {
+    font-size: 25px; }
+  ul li {
+    font-size: 25px; } }
+
+@media screen and (min-width: 455px) {
+  .alert-warning {
+    width: 455px; }
+  body {
+    width: 455px; }
+  main.contenedor {
+    width: 455px;
+    align-items: center; }
+  main .videosaritos {
+    width: 455px;
+    align-content: center; }
+  .mapa {
+    width: 455px;
+    align-content: center; }
+  footer {
+    width: 455px; } }
+
+@media screen and (min-width: 461px) {
+  .alert-warning {
+    width: 461px; }
+  body {
+    width: 461px; }
+  main.contenedor {
+    width: 461px;
+    align-items: center; }
+  main .videosaritos {
+    width: 461px;
+    align-content: center; }
+  .mapa {
+    width: 461px;
+    align-content: center; }
+  footer {
+    width: 461px; } }
+
+@media screen and (min-width: 466px) {
+  .alert-warning {
+    width: 466px; }
+  body {
+    width: 466px; }
+  .contenedor {
+    width: 466px; }
+  main .videosaritos {
+    width: 466px;
+    align-content: center; }
+  .mapa {
+    width: 466px;
+    align-content: center; }
+  footer {
+    width: 466px; } }
+
+@media screen and (min-width: 470px) {
+  .alert-warning {
+    width: 470px; }
+  body {
+    width: 470px; }
+  .contenedor {
+    width: 470px; }
+  main .videosaritos {
+    width: 470px;
+    align-content: center; }
+  .mapa {
+    width: 470px;
+    align-content: center; }
+  footer {
+    width: 470px; } }
 
 @media screen and (min-width: 480px) {
   body {
@@ -8280,23 +8493,46 @@ h6 .card-title, .h6 .card-title {
     color: #797177;
     font-size: 35px;
     border-style: solid;
-    border-color: #dfbac1; } }
+    border-color: #dfbac1; }
+  main .videosaritos {
+    width: 480px; } }
 
 @media screen and (min-width: 484px) {
+  .alert-warning {
+    width: 484px; }
   body {
     width: 484px; }
   main .videosaritos {
-    width: 478px; }
+    width: 484px; }
   .ubi {
-    width: 478px; }
+    width: 484px; }
   h5, .h5 {
-    width: 478px; }
+    width: 484px; }
   .ubicacion {
-    width: 478px; }
+    width: 484px; }
   div.grid2 {
-    width: 478px; }
+    width: 484px; }
   main.contenedor {
-    width: 478px; } }
+    width: 484px; }
+  .col {
+    font-size: 18px; } }
+
+@media screen and (min-width: 486px) {
+  .alert-warning {
+    width: 486px; }
+  body {
+    width: 486px; }
+  main.contenedor {
+    width: 486px;
+    align-items: center; }
+  main .videosaritos {
+    width: 486px;
+    align-content: center; }
+  .mapa {
+    width: 486px;
+    align-content: center; }
+  footer {
+    width: 486px; } }
 
 @media screen and (min-width: 494px) {
   body {
@@ -8312,7 +8548,25 @@ h6 .card-title, .h6 .card-title {
   div.grid2 {
     width: 494px; }
   main.contenedor {
+    width: 494px; }
+  alert-warning {
     width: 494px; } }
+
+@media screen and (min-width: 501px) {
+  .alert-warning {
+    width: 501px; }
+  body {
+    width: 501px; }
+  .contenedor {
+    width: 501px; }
+  main .videosaritos {
+    width: 501px;
+    align-content: center; }
+  .mapa {
+    width: 501px;
+    align-content: center; }
+  footer {
+    width: 501px; } }
 
 @media screen and (min-width: 510px) {
   .alert-warning {
@@ -8340,6 +8594,106 @@ h6 .card-title, .h6 .card-title {
   h5, .h5 {
     width: 510px; } }
 
+@media screen and (min-width: 537px) {
+  .alert-warning {
+    width: 537px; }
+  body {
+    width: 537px; }
+  .contenedor {
+    width: 537px; }
+  .grid {
+    width: 537px; }
+    .grid div {
+      font-size: 16px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 537px;
+    align-content: center; }
+  .mapa {
+    width: 537px;
+    align-content: center; }
+  .grid2 {
+    width: 537px; }
+  .ubicacion {
+    width: 537px; }
+  h5, .h5 {
+    width: 537px; } }
+
+@media screen and (min-width: 542px) {
+  .alert-warning {
+    width: 542px; }
+  body {
+    width: 542px; }
+  .contenedor {
+    width: 542px; }
+  main .videosaritos {
+    width: 542px;
+    align-content: center; }
+  .mapa {
+    width: 542px;
+    align-content: center; }
+  footer {
+    width: 542px; }
+  .col {
+    font-size: 18px; } }
+
+@media screen and (min-width: 543px) {
+  .alert-warning {
+    width: 543px; }
+  body {
+    width: 543px; }
+  .contenedor {
+    width: 543px; }
+  main .videosaritos {
+    width: 543px;
+    align-content: center; }
+  .mapa {
+    width: 543px;
+    align-content: center; }
+  footer {
+    width: 543px; } }
+
+@media screen and (min-width: 546px) {
+  .alert-warning {
+    width: 546px; }
+  body {
+    width: 546px; }
+  main.contenedor {
+    width: 546px; }
+  .grid {
+    width: 546px; }
+  main .videosaritos {
+    width: 546px; }
+  .mapa {
+    width: 546px; }
+  div.grid2 {
+    width: 546px; }
+  .ubicacion {
+    width: 546px; }
+  h5, .h5 {
+    width: 546px; } }
+
+@media screen and (min-width: 550px) {
+  .alert-warning {
+    width: 550px; }
+  body {
+    width: 550px; }
+  main.contenedor {
+    width: 550px; }
+  .grid {
+    width: 550px; }
+  main .videosaritos {
+    width: 550px; }
+  .mapa {
+    width: 550px; }
+  div.grid2 {
+    width: 550px; }
+  .ubicacion {
+    width: 550px; }
+  h5, .h5 {
+    width: 550px; } }
+
 @media screen and (min-width: 554px) {
   .alert-warning {
     width: 554px; }
@@ -8359,10 +8713,6 @@ h6 .card-title, .h6 .card-title {
     width: 554px; }
   h5, .h5 {
     width: 554px; } }
-
-@media screen and (min-width: 525px) {
-  .alert-warning {
-    width: 525px; } }
 
 @media screen and (min-width: 558px) {
   .alert-warning {
@@ -8390,6 +8740,52 @@ h6 .card-title, .h6 .card-title {
   h5, .h5 {
     width: 558px; } }
 
+@media screen and (min-width: 583px) {
+  .alert-warning {
+    width: 583px; }
+  body {
+    width: 583px; }
+  .contenedor {
+    width: 583px; }
+  .grid {
+    width: 583px; }
+    .grid div {
+      font-size: 16px;
+      text-align: center;
+      justify-content: center; }
+  main .videosaritos {
+    width: 583px;
+    align-content: center; }
+  .mapa {
+    width: 583px;
+    align-content: center; }
+  .grid2 {
+    width: 583px; }
+  .ubicacion {
+    width: 583px; }
+  h5, .h5 {
+    width: 583px; } }
+
+@media screen and (min-width: 592px) {
+  body {
+    width: 592px; }
+  main.contenedor {
+    width: 592px; }
+  .grid {
+    width: 592px; }
+  main .videosaritos {
+    width: 592px; }
+  .mapa {
+    width: 592px; }
+  div.grid2 {
+    width: 592px; }
+  .ubicacion {
+    width: 592px; }
+  h5, .h5 {
+    width: 592px; }
+  .alert-warning {
+    width: 592px; } }
+
 @media screen and (min-width: 598px) {
   body {
     width: 598px; }
@@ -8406,6 +8802,8 @@ h6 .card-title, .h6 .card-title {
   .ubicacion {
     width: 598px; }
   h5, .h5 {
+    width: 598px; }
+  .alert-warning {
     width: 598px; } }
 
 @media screen and (min-width: 604px) {
@@ -8478,9 +8876,96 @@ h6 .card-title, .h6 .card-title {
   h5, .h5 {
     width: 618px; } }
 
+@media screen and (min-width: 633px) {
+  .alert-warning {
+    width: 633px; }
+  body {
+    width: 633px; }
+  .contenedor {
+    width: 633px; }
+  main .videosaritos {
+    width: 633px;
+    align-content: center; }
+  .mapa {
+    width: 633px;
+    align-content: center; }
+  footer {
+    width: 633px; } }
+
+@media screen and (min-width: 658px) {
+  .alert-warning {
+    width: 658px; }
+  body {
+    width: 658px; }
+  .contenedor {
+    width: 658px; }
+  main .videosaritos {
+    width: 658px;
+    align-content: center; }
+  .mapa {
+    width: 658px;
+    align-content: center; }
+  footer {
+    width: 658px; } }
+
 @media screen and (min-width: 665px) {
   .alert-warning {
     width: 665px; } }
+
+@media screen and (min-width: 670px) {
+  .alert-warning {
+    width: 670px; }
+  body {
+    width: 670px; }
+  main .videosaritos {
+    width: 670px; }
+  .ubi {
+    width: 670px; }
+  h5, .h5 {
+    width: 670px; }
+  .ubicacion {
+    width: 670px; }
+  div.grid2 {
+    width: 670px; }
+  .grid {
+    width: 670px; }
+  main.contenedor {
+    width: 670px; }
+  div.row {
+    width: 670px;
+    font-size: 20px; } }
+
+@media screen and (min-width: 678px) {
+  .alert-warning {
+    width: 678px; }
+  body {
+    width: 678px; }
+  .contenedor {
+    width: 678px; }
+  main .videosaritos {
+    width: 678px;
+    align-content: center; }
+  .mapa {
+    width: 678px;
+    align-content: center; }
+  div.row {
+    width: 678px; } }
+
+@media screen and (min-width: 683px) {
+  .alert-warning {
+    width: 683px; }
+  body {
+    width: 683px; }
+  .contenedor {
+    width: 683px; }
+  main .videosaritos {
+    width: 683px;
+    align-content: center; }
+  .mapa {
+    width: 683px;
+    align-content: center; }
+  div.row {
+    width: 683px; } }
 
 @media screen and (min-width: 692px) {
   .alert-warning {
@@ -8619,7 +9104,8 @@ h6 .card-title, .h6 .card-title {
     width: 754px;
     align-content: center; }
   div.container.justify-content-center {
-    font-size: 65px; } }
+    font-size: 65px;
+    width: 754px; } }
 
 @media screen and (min-width: 768px) {
   .alert-warning {
@@ -8668,6 +9154,80 @@ h6 .card-title, .h6 .card-title {
     width: 768px; }
   main.mapa {
     width: 768px; } }
+
+@media screen and (min-width: 778px) {
+  .alert-warning {
+    width: 778px; }
+  body {
+    width: 778px; }
+  main.contenedor {
+    width: 778px; }
+  .grid div {
+    width: 778px; }
+  .videosaritos {
+    width: 778px;
+    align-content: center; }
+  .mapa {
+    width: 778px;
+    align-content: center; }
+  div.container.justify-content-center {
+    font-size: 65px; }
+  main .videosaritos {
+    width: 778px; } }
+
+@media screen and (min-width: 806px) {
+  .alert-warning {
+    width: 806px; }
+  body {
+    width: 806px; }
+  main .videosaritos {
+    width: 806px; }
+  .ubi {
+    width: 806px; }
+  h5, .h5 {
+    width: 806px; }
+  .ubicacion {
+    width: 806px; }
+  div.grid2 {
+    width: 806px; }
+  main.contenedor {
+    width: 806px; } }
+
+@media screen and (min-width: 814px) {
+  .alert-warning {
+    width: 814px; }
+  body {
+    width: 814px; }
+  main .videosaritos {
+    width: 814px; }
+  .ubi {
+    width: 814px; }
+  h5, .h5 {
+    width: 814px; }
+  .ubicacion {
+    width: 814px; }
+  div.grid2 {
+    width: 814px; }
+  main.contenedor {
+    width: 814px; } }
+
+@media screen and (min-width: 833px) {
+  .alert-warning {
+    width: 843px; }
+  body {
+    width: 833px; }
+  main .videosaritos {
+    width: 833px; }
+  .ubi {
+    width: 833px; }
+  h5, .h5 {
+    width: 833px; }
+  .ubicacion {
+    width: 833px; }
+  div.grid2 {
+    width: 833px; }
+  main.contenedor {
+    width: 833px; } }
 
 @media screen and (min-width: 843px) {
   .alert-warning {
@@ -8760,6 +9320,22 @@ h6 .card-title, .h6 .card-title {
     width: 922px; }
   main.contenedor {
     width: 922px; } }
+
+@media screen and (min-width: 966px) {
+  .alert-warning {
+    width: 966px; }
+  body {
+    width: 966px; }
+  .contenedor {
+    width: 966px; }
+  main .videosaritos {
+    width: 966px;
+    align-content: center; }
+  .mapa {
+    width: 966px;
+    align-content: center; }
+  footer {
+    width: 966px; } }
 
 @media screen and (min-width: 980px) {
   .alert-warning {
@@ -8936,6 +9512,52 @@ h6 .card-title, .h6 .card-title {
   h5, .h5 {
     width: 1054px; } }
 
+@media screen and (min-width: 1054px) and (min-width: 1068px) {
+  body {
+    width: 1068px; }
+  .alert-warning {
+    width: 1068px; }
+  .contenedor {
+    width: 1068px; }
+  div.row {
+    width: 1068px; }
+  main .videosaritos {
+    width: 1068px;
+    align-content: center; }
+  .mapa {
+    width: 1068px;
+    align-content: center; }
+  .ubicacion {
+    width: 1068px; }
+  h5, .h5 {
+    width: 1068px; }
+  header {
+    width: 1068px; } }
+
+@media screen and (min-width: 1064px) {
+  body {
+    width: 1064px; }
+  .alert-warning {
+    width: 1064px; }
+  .contenedor {
+    width: 1064px; }
+  div.row {
+    width: 1064px; }
+  main .videosaritos {
+    width: 1064px;
+    align-content: center; }
+  .mapa {
+    width: 1064px;
+    align-content: center; }
+  .ubicacion {
+    width: 1064px; }
+  h5, .h5 {
+    width: 1064px; }
+  header {
+    width: 1064px; }
+  h3.sucur, .sucur.h3 {
+    width: 1064px; } }
+
 @media screen and (min-width: 1068px) {
   body {
     width: 1068px; }
@@ -8993,6 +9615,26 @@ h6 .card-title, .h6 .card-title {
     width: 1130px; }
   h5, .h5 {
     width: 1130px; } }
+
+@media screen and (min-width: 1139px) {
+  .alert-warning {
+    width: 1139px; }
+  .contenedor {
+    width: 1139px; }
+  div.row {
+    width: 1139px; }
+  main .videosaritos {
+    width: 1139px;
+    align-content: center; }
+  .mapa {
+    width: 1139px;
+    align-content: center; }
+  .ubicacion {
+    width: 1139px; }
+  h5, .h5 {
+    width: 1139px; }
+  h3.sucur, .sucur.h3 {
+    width: 1139px; } }
 
 @media screen and (min-width: 1160px) {
   .alert-warning {
@@ -9094,6 +9736,8 @@ h6 .card-title, .h6 .card-title {
   .ubicacion {
     width: 1260px; }
   h5, .h5 {
+    width: 1260px; }
+  h3.sucur, .sucur.h3 {
     width: 1260px; } }
 
 @media screen and (min-width: 1267px) {
@@ -9155,6 +9799,24 @@ h6 .card-title, .h6 .card-title {
     width: 1280px; }
   .container {
     width: 1280px; } }
+
+@media screen and (min-width: 1289px) {
+  .alert-warning {
+    width: 1289px; }
+  .contenedor {
+    width: 1289px; }
+  div.row {
+    width: 1289px; }
+  main .videosaritos {
+    width: 1289px; }
+  .mapa {
+    width: 1289px; }
+  .ubicacion {
+    width: 1289px; }
+  h5, .h5 {
+    width: 1289px; }
+  h3.sucur, .sucur.h3 {
+    width: 1289px; } }
 
 @media screen and (min-width: 1310px) {
   .alert-warning {
@@ -9241,6 +9903,22 @@ h6 .card-title, .h6 .card-title {
   main .mapa {
     width: 1426px; } }
 
+@media screen and (min-width: 1429px) {
+  .alert-warning {
+    width: 1429px; }
+  body {
+    width: 1429px; }
+  .contenedor {
+    width: 1429px; }
+  main .contenedor {
+    width: 1429px; }
+  main .videosaritos {
+    width: 1429px; }
+  main .mapa {
+    width: 1429px; }
+  h3.sucur, .sucur.h3, .sucur.h3 {
+    width: 1429px; } }
+
 @media screen and (min-width: 1432px) {
   .alert-warning {
     width: 1432px; }
@@ -9254,6 +9932,22 @@ h6 .card-title, .h6 .card-title {
     width: 1432px; }
   main .mapa {
     width: 1432px; } }
+
+@media screen and (min-width: 1435px) {
+  .alert-warning {
+    width: 1435px; }
+  body {
+    width: 1435px; }
+  .contenedor {
+    width: 1435px; }
+  main .contenedor {
+    width: 1435px; }
+  main .videosaritos {
+    width: 1435px; }
+  main .mapa {
+    width: 1435px; }
+  h3.sucur, .sucur.h3, .sucur.h3 {
+    width: 1435px; } }
 
 @media screen and (min-width: 1440px) {
   .alert-warning {
@@ -9303,6 +9997,22 @@ h6 .card-title, .h6 .card-title {
     align-content: center; }
   footer {
     width: 1442px; } }
+
+@media screen and (min-width: 1480px) {
+  .alert-warning {
+    width: 1480px; }
+  body {
+    width: 1480px; }
+  .contenedor {
+    width: 1480px; }
+  main .videosaritos {
+    width: 1480px;
+    align-content: center; }
+  .mapa {
+    width: 1480px;
+    align-content: center; }
+  footer {
+    width: 1480px; } }
 
 @media screen and (min-width: 1483px) {
   .alert-warning {

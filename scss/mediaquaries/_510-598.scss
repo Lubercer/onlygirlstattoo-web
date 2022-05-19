@@ -1,4 +1,27 @@
-
+@media screen and (min-width: 501px) {
+	.alert-warning {
+		width: 501px;
+	}
+	body {
+		width: 501px;
+	}
+	.contenedor {
+		width: 501px;
+	}
+	main {
+		.videosaritos {
+			width: 501px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 501px;
+		align-content: center;
+	}
+	footer {
+		width: 501px;
+	}
+}
 @media screen and (min-width: 510px) {
 	.alert-warning {
 		width: 510px;
@@ -37,6 +60,157 @@
 		width: 510px;
 	}
 }
+@media screen and (min-width: 537px) {
+	.alert-warning {
+		width: 537px;
+	}
+	body {
+		width: 537px;
+	}
+	.contenedor {
+		width: 537px;
+	}
+	.grid {
+		width: 537px;
+		div {
+			font-size: 16px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 537px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 537px;
+		align-content: center;
+	}
+	.grid2 {
+		width: 537px;
+	}
+	.ubicacion {
+		width: 537px;
+	}
+	h5 {
+		width: 537px;
+	}
+}
+@media screen and (min-width: 542px) {
+	.alert-warning {
+		width: 542px;
+	}
+	body {
+		width: 542px;
+	}
+	.contenedor {
+		width: 542px;
+	}
+	main {
+		.videosaritos {
+			width: 542px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 542px;
+		align-content: center;
+	}
+	footer {
+		width: 542px;
+	}
+	.col {
+		font-size: 18px;
+	}
+}
+@media screen and (min-width: 543px) {
+	.alert-warning {
+		width: 543px;
+	}
+	body {
+		width: 543px;
+	}
+	.contenedor {
+		width: 543px;
+	}
+	main {
+		.videosaritos {
+			width: 543px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 543px;
+		align-content: center;
+	}
+	footer {
+		width: 543px;
+	}
+}
+@media screen and (min-width: 546px) {
+	.alert-warning {
+		width: 546px;
+	}
+	body {
+		width: 546px;
+	}
+	main.contenedor {
+		width: 546px;
+	}
+	.grid {
+		width: 546px;
+	}
+	main {
+		.videosaritos {
+			width: 546px;
+		}
+	}
+	.mapa {
+		width: 546px;
+	}
+	div.grid2 {
+		width: 546px;
+	}
+	.ubicacion {
+		width: 546px;
+	}
+	h5 {
+		width: 546px;
+	}
+}
+@media screen and (min-width: 550px) {
+	.alert-warning {
+		width: 550px;
+	}
+	body {
+		width: 550px;
+	}
+	main.contenedor {
+		width: 550px;
+	}
+	.grid {
+		width: 550px;
+	}
+	main {
+		.videosaritos {
+			width: 550px;
+		}
+	}
+	.mapa {
+		width: 550px;
+	}
+	div.grid2 {
+		width: 550px;
+	}
+	.ubicacion {
+		width: 550px;
+	}
+	h5 {
+		width: 550px;
+	}
+}
 @media screen and (min-width: 554px) {
 	.alert-warning {
 		width: 554px;
@@ -67,13 +241,7 @@
 	h5 {
 		width: 554px;
 	}
-}
-@media screen and (min-width: 525px) {
-	.alert-warning {
-		width: 525px;
-	}
-}
-@media screen and (min-width: 558px) {
+}@media screen and (min-width: 558px) {
 	.alert-warning {
 		width: 558px;
 	}
@@ -111,6 +279,75 @@
 		width: 558px;
 	}
 }
+@media screen and (min-width: 583px) {
+	.alert-warning {
+		width: 583px;
+	}
+	body {
+		width: 583px;
+	}
+	.contenedor {
+		width: 583px;
+	}
+	.grid {
+		width: 583px;
+		div {
+			font-size: 16px;
+			text-align: center;
+			justify-content: center;
+		}
+	}
+	main {
+		.videosaritos {
+			width: 583px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 583px;
+		align-content: center;
+	}
+	.grid2 {
+		width: 583px;
+	}
+	.ubicacion {
+		width: 583px;
+	}
+	h5 {
+		width: 583px;
+	}
+}
+@media screen and (min-width: 592px) {
+	body {
+		width: 592px;
+	}
+	main.contenedor {
+		width: 592px;
+	}
+	.grid {
+		width: 592px;
+	}
+	main {
+		.videosaritos {
+			width: 592px;
+		}
+	}
+	.mapa {
+		width: 592px;
+	}
+	div.grid2 {
+		width: 592px;
+	}
+	.ubicacion {
+		width: 592px;
+	}
+	h5 {
+		width: 592px;
+	}
+	.alert-warning {
+		width:592px;
+	}
+}
 @media screen and (min-width: 598px) {
 	body {
 		width: 598px;
@@ -137,5 +374,8 @@
 	}
 	h5 {
 		width: 598px;
+	}
+	.alert-warning {
+		width:598px;
 	}
 }
