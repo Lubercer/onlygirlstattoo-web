@@ -268,7 +268,6 @@ a {
 	align-content: end;
 	text-align: center;
 	div {
-		margin: 0 auto;
 		color: $color-2;
 		@include FontStyle();
 		font-weight: 500;
@@ -283,7 +282,6 @@ a {
 	text-align: center;
 }
 #tabla-perfos {
-	margin: 0 auto;
 	color: $color-2;
 	@include FontStyle();
 	font-weight: 500;
@@ -315,11 +313,11 @@ a {
 
 .contenedor {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	// grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 5px;
 	grid-row-gap: 0px;
-	width: 70%;
+	justify-content: space-evenly;
 }
 .img1 {
 	display: none;
@@ -377,6 +375,30 @@ h6 {
 	}
 	.contenedor {
 		width: 375px;
+	}
+}
+@media screen and (min-width: 387px) {
+	.alert-warning {
+		width: 387px;
+	}
+	body {
+		width: 387px;
+	}
+	.contenedor {
+		width: 387px;
+	}
+	main {
+		.videosaritos {
+			width: 387px;
+			align-content: center;
+		}
+	}
+	.mapa {
+		width: 387px;
+		align-content: center;
+	}
+	footer {
+		width: 387px;
 	}
 }
 @media screen and (min-width: 392px) {
