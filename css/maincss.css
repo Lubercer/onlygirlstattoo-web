@@ -508,7 +508,7 @@ progress {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
- }
+  }
 
 @media (min-width: 576px) {
   .container, .container-sm {
@@ -7840,6 +7840,7 @@ header .titulo {
 div.row {
   text-align: center;
   justify-content: center;
+  margin: 0 auto;
   color: #797177;
   font-style: italic;
   font-family: 'Bebas Neue', sans-serif;
@@ -9297,6 +9298,10 @@ h6 .card-title, .h6 .card-title {
   .navbar {
     width: 678px; }
   div.row {
+    width: 678px; }
+  .navbar {
+    width: 678px; }
+  h3.sucur, .sucur.h3 {
     width: 678px; } }
 
 @media screen and (min-width: 679px) {
@@ -9935,6 +9940,46 @@ h6 .card-title, .h6 .card-title {
   div.row {
     font-size: 35px; } }
 
+@media screen and (min-width: 946px) {
+  .alert-warning {
+    width: 946px; }
+  header {
+    width: 946px; }
+  h3.sucur, .sucur.h3 {
+    width: 946px; }
+  .contenedor {
+    width: 946px; }
+  main .videosaritos {
+    width: 946px; }
+  .mapa {
+    width: 946px; }
+  .ubicacion {
+    width: 946px; }
+  h5, .h5 {
+    width: 946px; }
+  .navbar {
+    width: 946px; } }
+
+@media screen and (min-width: 960px) {
+  .alert-warning {
+    width: 960px; }
+  header {
+    width: 960px; }
+  h3.sucur, .sucur.h3 {
+    width: 960px; }
+  .contenedor {
+    width: 960px; }
+  main .videosaritos {
+    width: 960px; }
+  .mapa {
+    width: 960px; }
+  .ubicacion {
+    width: 960px; }
+  h5, .h5 {
+    width: 960px; }
+  .navbar {
+    width: 960px; } }
+
 @media screen and (min-width: 966px) {
   .alert-warning {
     width: 966px; }
@@ -9949,6 +9994,10 @@ h6 .card-title, .h6 .card-title {
     width: 966px;
     align-content: center; }
   footer {
+    width: 966px; }
+  h3.sucur, .sucur.h3 {
+    width: 966px; }
+  .navbar {
     width: 966px; } }
 
 @media screen and (min-width: 979px) {
@@ -10025,9 +10074,65 @@ h6 .card-title, .h6 .card-title {
   h5, .h5 {
     width: 985px; } }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 992px) {
   .alert-warning {
-    width: 1000px; } }
+    width: 992px; }
+  header {
+    width: 992px; }
+  h3.sucur, .sucur.h3 {
+    width: 992px; }
+  .contenedor {
+    width: 992px; }
+  main .videosaritos {
+    width: 992px; }
+  .mapa {
+    width: 992px; }
+  .ubicacion {
+    width: 992px; }
+  h5, .h5 {
+    width: 992px; }
+  .navbar {
+    width: 992px; } }
+
+@media screen and (min-width: 994px) {
+  .alert-warning {
+    width: 994px; }
+  body {
+    width: 994px; }
+  .contenedor {
+    width: 994px; }
+  main .videosaritos {
+    width: 994px;
+    align-content: center; }
+  .mapa {
+    width: 994px;
+    align-content: center; }
+  footer {
+    width: 994px; }
+  h3.sucur, .sucur.h3 {
+    width: 994px; }
+  .navbar {
+    width: 994px; } }
+
+@media screen and (min-width: 1012px) {
+  .alert-warning {
+    width: 1012px; }
+  header {
+    width: 1012px; }
+  h3.sucur, .sucur.h3 {
+    width: 1012px; }
+  .contenedor {
+    width: 1012px; }
+  main .videosaritos {
+    width: 1012px; }
+  .mapa {
+    width: 1012px; }
+  .ubicacion {
+    width: 1012px; }
+  h5, .h5 {
+    width: 1012px; }
+  .navbar {
+    width: 1012px; } }
 
 @media screen and (min-width: 1024px) {
   .alert-warning {
@@ -10071,6 +10176,26 @@ h6 .card-title, .h6 .card-title {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2px;
     align-items: center; } }
+
+@media screen and (min-width: 1028px) {
+  .alert-warning {
+    width: 1028px; }
+  header {
+    width: 1028px; }
+  h3.sucur, .sucur.h3 {
+    width: 1028px; }
+  .contenedor {
+    width: 1028px; }
+  main .videosaritos {
+    width: 1028px; }
+  .mapa {
+    width: 1028px; }
+  .ubicacion {
+    width: 1028px; }
+  h5, .h5 {
+    width: 1028px; }
+  .navbar {
+    width: 1028px; } }
 
 @media screen and (min-width: 1029px) {
   .alert-warning {
@@ -10135,6 +10260,26 @@ h6 .card-title, .h6 .card-title {
     width: 1031px; }
   h5, .h5 {
     width: 1031px; } }
+
+@media screen and (min-width: 1036px) {
+  .alert-warning {
+    width: 1036px; }
+  header {
+    width: 1036px; }
+  h3.sucur, .sucur.h3 {
+    width: 1036px; }
+  .contenedor {
+    width: 1036px; }
+  main .videosaritos {
+    width: 1036px; }
+  .mapa {
+    width: 1036px; }
+  .ubicacion {
+    width: 1036px; }
+  h5, .h5 {
+    width: 1036px; }
+  .navbar {
+    width: 1036px; } }
 
 @media screen and (min-width: 1051px) {
   .alert-warning {
@@ -10246,6 +10391,26 @@ h6 .card-title, .h6 .card-title {
   h5, .h5 {
     width: 1115px; } }
 
+@media screen and (min-width: 1120px) {
+  .alert-warning {
+    width: 1120px; }
+  header {
+    width: 1120px; }
+  h3.sucur, .sucur.h3 {
+    width: 1120px; }
+  .contenedor {
+    width: 1120px; }
+  main .videosaritos {
+    width: 1120px; }
+  .mapa {
+    width: 1120px; }
+  .ubicacion {
+    width: 1120px; }
+  h5, .h5 {
+    width: 1120px; }
+  .navbar {
+    width: 1120px; } }
+
 @media screen and (min-width: 1123px) {
   .alert-warning {
     width: 1123px; }
@@ -10347,6 +10512,26 @@ h6 .card-title, .h6 .card-title {
     width: 1160px; }
   h5, .h5 {
     width: 1160px; } }
+
+@media screen and (min-width: 1162px) {
+  .alert-warning {
+    width: 1162px; }
+  header {
+    width: 1162px; }
+  h3.sucur, .sucur.h3 {
+    width: 1162px; }
+  .contenedor {
+    width: 1162px; }
+  main .videosaritos {
+    width: 1162px; }
+  .mapa {
+    width: 1162px; }
+  .ubicacion {
+    width: 1162px; }
+  h5, .h5 {
+    width: 1162px; }
+  .navbar {
+    width: 1162px; } }
 
 @media screen and (min-width: 1170px) {
   .alert-warning {
@@ -10477,7 +10662,7 @@ h6 .card-title, .h6 .card-title {
     width: 1231px; }
   main .videosaritos {
     width: 1231px; }
-  .mapa {
+  .ubi {
     width: 1231px; }
   .ubicacion {
     width: 1231px; }
@@ -10496,7 +10681,7 @@ h6 .card-title, .h6 .card-title {
   div.videosaritos {
     width: 1240px;
     align-content: center; }
-  .mapa {
+  .ubi {
     width: 1240px;
     align-content: center; }
   .ubicacion {
@@ -10517,7 +10702,7 @@ h6 .card-title, .h6 .card-title {
     width: 1260px; }
   main .videosaritos {
     width: 1260px; }
-  .mapa {
+  .ubi {
     width: 1260px; }
   .ubicacion {
     width: 1260px; }
@@ -10537,7 +10722,7 @@ h6 .card-title, .h6 .card-title {
     width: 1267px; }
   main .videosaritos {
     width: 1267px; }
-  .mapa {
+  .ubi {
     width: 1267px; }
   .ubicacion {
     width: 1267px; }
@@ -10553,7 +10738,7 @@ h6 .card-title, .h6 .card-title {
     width: 1270px; }
   main .videosaritos {
     width: 1270px; }
-  .mapa {
+  .ubi {
     width: 1270px; }
   .ubicacion {
     width: 1270px; }
@@ -10569,7 +10754,7 @@ h6 .card-title, .h6 .card-title {
     width: 1280px; }
   main .videosaritos {
     width: 1280px; }
-  .mapa {
+  .ubi {
     width: 1280px; }
   .ubicacion {
     width: 1280px; }
@@ -10598,7 +10783,7 @@ h6 .card-title, .h6 .card-title {
   div.videosaritos {
     width: 1282px;
     align-content: center; }
-  .mapa {
+  .ubi {
     width: 1282px;
     align-content: center; }
   .ubicacion {
@@ -10619,7 +10804,7 @@ h6 .card-title, .h6 .card-title {
     width: 1289px; }
   main .videosaritos {
     width: 1289px; }
-  .mapa {
+  .ubi {
     width: 1289px; }
   .ubicacion {
     width: 1289px; }
@@ -10627,6 +10812,64 @@ h6 .card-title, .h6 .card-title {
     width: 1289px; }
   h3.sucur, .sucur.h3 {
     width: 1289px; } }
+
+@media screen and (min-width: 1294px) {
+  .alert-warning {
+    width: 1294px; }
+  .contenedor {
+    width: 1294px; }
+  div.row {
+    width: 1294px; }
+  main .videosaritos {
+    width: 1294px; }
+  .ubi {
+    width: 1294px; }
+  .ubicacion {
+    width: 1294px; }
+  h5, .h5 {
+    width: 1294px; }
+  h3.sucur, .sucur.h3 {
+    width: 1294px; } }
+
+@media screen and (min-width: 1296px) {
+  .alert-warning {
+    width: 1296px; }
+  header {
+    width: 1296px; }
+  h3.sucur, .sucur.h3 {
+    width: 1296px; }
+  .contenedor {
+    width: 1296px; }
+  main .videosaritos {
+    width: 1296px; }
+  .mapa {
+    width: 1296px; }
+  .ubicacion {
+    width: 1296px; }
+  h5, .h5 {
+    width: 1296px; }
+  .navbar {
+    width: 1296px; } }
+
+@media screen and (min-width: 1302px) {
+  .alert-warning {
+    width: 1302px; }
+  header {
+    width: 1302px; }
+  h3.sucur, .sucur.h3 {
+    width: 1302px; }
+  .contenedor {
+    width: 1302px; }
+  main .videosaritos {
+    width: 1302px; }
+  .ubi {
+    width: 1302px; }
+  .ubicacion {
+    width: 1302px; }
+  h5, .h5 {
+    width: 1302px; }
+  .navbar {
+    width: 1302px; } }
 
 @media screen and (min-width: 1310px) {
   .alert-warning {
@@ -10637,7 +10880,7 @@ h6 .card-title, .h6 .card-title {
     width: 1310px; }
   main .videosaritos {
     width: 1310px; }
-  main .mapa {
+  main .ubi {
     width: 1310px; } }
 
 @media screen and (min-width: 1314px) {
@@ -10699,7 +10942,7 @@ h6 .card-title, .h6 .card-title {
   h6.card-title, .card-title.h6 {
     font-size: 31px; } }
 
-@media screen and (min-width: 1282px) {
+@media screen and (min-width: 1425px) {
   .alert-warning {
     width: 1425px; }
   body {
@@ -10786,35 +11029,20 @@ h6 .card-title, .h6 .card-title {
 @media screen and (min-width: 1440px) {
   .alert-warning {
     width: 1440px; }
-  body {
+  header {
     width: 1440px; }
-  h1, .h1 {
-    font-size: 120px; }
-  div.row {
-    font-size: 27px;
-    width: 1440px;
-    justify-content: center;
-    text-align: center; }
-  h5, .h5 {
-    width: 1440px;
-    font-size: 30px; }
-  .preguntas {
-    font-size: 55px; }
-  .mapa {
-    width: 1440px;
-    align-content: center;
-    justify-content: center; }
-  .ubicacion {
-    width: 1440px;
-    font-size: 40px; }
-  main.contenedor {
+  h3.sucur, .sucur.h3 {
+    width: 1440px; }
+  .contenedor {
     width: 1440px; }
   main .videosaritos {
     width: 1440px; }
-  h3.sucur, .sucur.h3 {
-    width: 1440px;
-    justify-content: center;
-    text-align: center; }
+  .mapa {
+    width: 1440px; }
+  .ubicacion {
+    width: 1440px; }
+  h5, .h5 {
+    width: 1440px; }
   .navbar {
     width: 1440px; } }
 
