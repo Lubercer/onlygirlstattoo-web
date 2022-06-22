@@ -1,4 +1,4 @@
-/* Suma de productos */
+
 /* productos */
 let microdermal = 2000
 let daith = 900
@@ -14,6 +14,9 @@ const envio = x => + 750;
 let descuento = microdermal*0.10 //10% de descuento
 
 //                          
-let preciototal = resta(suma(microdermal, envio(microdermal)), descuento);
 
-console.log(preciototal);
+function Preciototal() {
+    let preciopiercing = resta(suma(microdermal, envio(microdermal)), descuento);  
+    console.log(preciopiercing);
+}
+Preciototal();
