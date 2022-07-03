@@ -31,6 +31,8 @@ datos();
             let sucursal = prompt('Elegí una de nuestras sucursales: Nordelta - Pacheco')
             let fecha = prompt('Elegí la fecha (ej 15/03/22)')
             alert ("¡Turno agendado! Gracias <3")
+            let precio = piercingsArray.find((elemento) => elemento.price === nombre)
+            userReserva.push(new Reserva(nombre, sucursal, fecha, precio))
         }else alert('Por favor escriba una opción existente')
     }
     
