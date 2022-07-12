@@ -45,11 +45,10 @@ datos();
 
 let miFormulario = document.getElementById("formulario");
 
-// Esto hace que el botón que tiene asignado el submit, cuando se clicklea, se ejecuta la función del segundo parámetro.
 miFormulario.addEventListener("submit", validarFormulario);
 
 function validarFormulario(e) {
-    e.preventDefault ();    // ESTO HACE QUE NO SE REINICIE LA PÁGINA
+    e.preventDefault ();  
     console.log("Agendado");
     alert("LISTO!");
 }
