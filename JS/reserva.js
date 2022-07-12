@@ -10,12 +10,16 @@ const userReserva = []
 
 // arrays de los diferentes productos
 const piercingsArray = [
-  {nombre: "microdermal", price: 2000},
-  {nombre: "daith", price: 900},
-  {nombre:"industrial",price: 850},
-  {nombre: "tragus", price: 800},
-  {nombre: "labret", price: 750}
-]
+    {id:1, nombre: "microdermal", precio: 2000},
+    {id:2, nombre: "daith", precio: 900},
+    {id:3, nombre:"industrial",precio: 850},
+    {id:4, nombre: "tragus", precio: 800},
+    {id:5, nombre: "labret", precio: 750}
+];
+/* local Storage */
+const productosGuardados = (clave, valor) => {localStorage.setItem(clave, valor)};
+
+productosGuardados ("listaDePiercing", JSON.stringify(piercingsArray));
 
 /* Usaremos esta funcion para saber quien es y que busca el cliente */
  function datos() { 
