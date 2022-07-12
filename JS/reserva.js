@@ -18,7 +18,7 @@ const piercingsArray = [
 ]
 
 /* Usaremos esta funcion para saber quien es y que busca el cliente */
-function datos() { 
+ function datos() { 
     let nombreApellido = prompt ("Por favor ingrese su nombre y apellido");
     alert ("¡bienvenidx! " + nombreApellido + " haz click en ACEPTAR para continuar");
 }
@@ -26,7 +26,7 @@ datos();
 
   // función para pedir datos y guardar la reserva en un objeto ↓
     const pedirDatosReserva = (nombre) =>{
-            nombre = prompt('¿Que perforación te vas a realizar?').toLowerCase()
+            nombre = prompt('¿Que perforación te vas a realizar?');
         if(nombre === 'microdermal' || nombre === 'daith' || nombre === 'industrial' || nombre === 'tragus' || nombre === 'labret'){
             let sucursal = prompt('Elegí una de nuestras sucursales: Nordelta - Pacheco')
             let fecha = prompt('Elegí la fecha (ej 15/03/22)')
@@ -38,24 +38,20 @@ datos();
     
     pedirDatosReserva()
     
-    console.log(userReserva)
+    console.log(userReserva) 
 
 
-  
+/* BOTON DE RESERVAR TURNO */
 
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-    
+let miFormulario = document.getElementById("formulario");
+
+// Esto hace que el botón que tiene asignado el submit, cuando se clicklea, se ejecuta la función del segundo parámetro.
+miFormulario.addEventListener("submit", validarFormulario);
+
+function validarFormulario(e) {
+    e.preventDefault ();    // ESTO HACE QUE NO SE REINICIE LA PÁGINA
+    console.log("Agendado");
+    alert("LISTO!");
+}
 
 

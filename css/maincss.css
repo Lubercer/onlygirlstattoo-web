@@ -1528,7 +1528,7 @@ progress {
   color: #6c757d; }
 
 .form-control {
-  display: block;
+  display: inline;
   width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -8150,6 +8150,11 @@ a {
 
 #tabla-fecha {
   margin: 0 auto; }
+
+  form #formulario {
+    margin: 0 auto;
+    justify-content: center;
+  }
 
 .dias {
   color: #797177;
