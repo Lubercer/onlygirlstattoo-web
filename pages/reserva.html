@@ -80,8 +80,8 @@
                 <P>TODAS LAS PERFORACIONES INCLUYEN PIERCING</P>
             </h6>
 
-            <div  class="opciones">
-                <input  class="opciones" type="text" placeholder="Nombre y Apellido"> 
+            <div>
+                <input  id="nombreApellido" type="text" placeholder="Nombre y Apellido"> 
             </div>  
             <div">
                 <table id="tabla-fecha"  border="2" cellpadding="3"> 
@@ -138,48 +138,40 @@
             </div>  
         </main>
                               
-        <div class="opciones">                  
+        <div>                  
             <h3 class="fecha-titulo">Elegir Perforación</h3>
-                <select class="opciones" name="PERFORACIÓN ">
-                    <option value="PERFORACIÓN">MICRODERMAL</option>
-                    <option value="PERFORACIÓN">DAITH</option>
-                    <option value="PERFORACIÓN">INDUSTRIAL</option>
-                    <option value="PERFORACIÓN">TRAGUS</option>
-                    <option value="PERFORACIÓN">LABRET</option>
-                </select>   
+            <select id="perforacion" name="PERFORACIÓN ">
+                <option value="MICRODERMAL">MICRODERMAL</option>
+                <option value="DAITH">DAITH</option>
+                <option value="INDUSTRIAL">INDUSTRIAL</option>
+                <option value="TRAGUS">TRAGUS</option>
+                <option value="LABRET">LABRET</option>
+            </select>   
         </div>
-
-        <div class="opciones">
-            <h3 class="fecha-titulo">Elegir Sucursal</h3>
-            <select class="opciones" name="SUCURSALES">
-                <option value="SUCURSALES">NORDELTA</option>
-                <option value="SUCURSALES">GRAL PACHECO</option>
+        <div>
+            <h3>Elegir Sucursal</h3>
+            <select id="sucursales" name="SUCURSALES">
+                <option value="NORDELTA">NORDELTA</option>
+                <option value="GRAL PACHECO">GRAL PACHECO</option>
             </select>
-        </div>
-                        
-        <div class="opciones">
+        </div>                
+        <div>
             <h3 class="fecha-titulo">Elegir Horario</h3>
-            <select class="opciones" name="HORARIO">
-                  <option value="HORARIO">12:00</option>
-                 <option value="HORARIO">12:15</option>
-                  <option value="HORARIO">12:30</option>
-                  <option value="HORARIO">12:45</option>
-                  <option value="HORARIO">13:10</option>
-                 <option value="HORARIO">13:15</option>
-                 <option value="HORARIO">13:35</option>
-                <option value="HORARIO">13:45</option>
-            </select>
+            <select id="horario" name="HORARIO">
+                <option value="12:00">12:00</option>
+               <option value="12:15">12:15</option>
+                <option value="12:30">12:30</option>
+                <option value="12:45">12:45</option>
+                <option value="13:10">13:10</option>
+               <option value="13:15">13:15</option>
+               <option value="13:35">13:35</option>
+              <option value="13:45">13:45</option>
+          </select>
         </div>
          <br>
                 
         <br>   
-        <form id="formulario">
-            <input  class="opciones" type="submit" value="Aceptar">
-            <input  class="opciones" type="reset" value="Limpiar"> 
-            <div class="spinner-border text-secondary" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>  
-        </form>                    
+        <button onclick=" mostrarInputs()"> aceptar</button>                         
         <footer> 
             <div class="container justify-content-center">
                 <div class="row">
