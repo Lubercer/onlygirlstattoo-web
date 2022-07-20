@@ -8011,14 +8011,18 @@ h2, .h2 {
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 500;
   font-size: 17px; }
-
-#nombreApellido, #perforacion, #horario, #sucursales, button {
+form {
+ justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#nombreApellido, #perforacion, #horario, #sucursales, #aceptar, #fecha {
   color: #797177;
   font-style: italic;
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 500;
   font-size: 19px;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   transition: all; }
   .opciones:hover {

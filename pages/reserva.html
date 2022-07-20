@@ -41,18 +41,17 @@
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
             <strong>RECORDATORIO:</strong> Personas menores de edad tendrán que asistir con su tutor legal y/o llenar formulario de autorización con la documentación correspondiente.
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-          </div>
+        </div>
         <main>
             <table id="tabla-perfos" border="2" cellpadding="5"> 
                 <thead >
                     <h3 class="fecha-titulo">Lista de precios</h3>
-                        <tr>
-                            <th>PERFORACIÓN</th>
-                            <th>PRECIO</th>
-                        </tr>
+                    <tr>
+                        <th>PERFORACIÓN</th>
+                        <th>PRECIO</th>
+                    </tr>
                 </thead>
                 <tbody>
-
                     <tr>
                         <td>MICRODERMAL</td>
                         <td>$2000</td>
@@ -79,99 +78,51 @@
             <h6> 
                 <P>TODAS LAS PERFORACIONES INCLUYEN PIERCING</P>
             </h6>
-
+        </main>
+        <form id="formulario">
             <div>
                 <input  id="nombreApellido" type="text" placeholder="Nombre y Apellido"> 
             </div>  
-            <div">
-                <table id="tabla-fecha"  border="2" cellpadding="3"> 
-                    <h3 class="fecha-titulo">Elegir Fecha</h3>
-                    <thead class="fecha">
-                                    <tr>
-                                        <th>LUNES</th>
-                                        <th>MARTES</th>
-                                        <th>MIERCOLES</th>
-                                        <th>JUEVES</th>
-                                        <th>VIERNES</th>
-                                    </tr>
-                    </thead>                   
-                    <tbody>                      
-                        <div class="dias"> 
-                            <tr class="dias">
-                                <td>LUNES 28</td>
-                                <td>MARTES 1</td>
-                                <td>MIERCOLES 2</td>
-                                <td>JUEVES 3</td>
-                                <td>VIERNES 4</td>
-                            </tr>
-                            <tr class="dias">
-                                <td>LUNES 7</td>
-                                <td>MARTES 8</td>
-                                <td>MIERCOLES 9</td>
-                                <td>JUEVES 10</td>
-                                <td>VIERNES 11</td>   
-                            </tr>
-                            <tr class="dias"> 
-                                <td>LUNES 14</td>
-                                <td>MARTES 15</td>
-                                <td>MIERCOLES 16</td>
-                                <td>JUEVES 17</td>
-                                <td>VIERNES 18</td>
-                            </tr>
-                            <tr  class="dias">
-                                <td>LUNES 21</td>
-                                <td>MARTES 22</td>
-                                <td>MIERCOLES 23</td>
-                                <td>JUEVES 24</td>
-                                <td>VIERNES 25</td>  
-                            </tr>
-                            <tr  class="dias">
-                                <td>LUNES 28</td>
-                                <td>MARTES 29</td>
-                                <td>MIERCOLES 30</td>
-                                <td>JUEVES 31</td>
-                                <td>VIERNES 1</td>
-                            </tr>
-                        </div>
-                    </tbody>        
-                </table>
-            </div>  
-        </main>
-                              
-        <div>                  
-            <h3 class="fecha-titulo">Elegir Perforación</h3>
-            <select id="perforacion" name="PERFORACIÓN ">
-                <option value="MICRODERMAL">MICRODERMAL</option>
-                <option value="DAITH">DAITH</option>
-                <option value="INDUSTRIAL">INDUSTRIAL</option>
-                <option value="TRAGUS">TRAGUS</option>
-                <option value="LABRET">LABRET</option>
-            </select>   
-        </div>
-        <div>
-            <h3>Elegir Sucursal</h3>
-            <select id="sucursales" name="SUCURSALES">
-                <option value="NORDELTA">NORDELTA</option>
-                <option value="GRAL PACHECO">GRAL PACHECO</option>
-            </select>
-        </div>                
-        <div>
-            <h3 class="fecha-titulo">Elegir Horario</h3>
-            <select id="horario" name="HORARIO">
-                <option value="12:00">12:00</option>
-               <option value="12:15">12:15</option>
-                <option value="12:30">12:30</option>
-                <option value="12:45">12:45</option>
-                <option value="13:10">13:10</option>
-               <option value="13:15">13:15</option>
-               <option value="13:35">13:35</option>
-              <option value="13:45">13:45</option>
-          </select>
-        </div>
-         <br>
-                
-        <br>   
-        <button onclick=" mostrarInputs()"> aceptar</button>                         
+            <h3 class="fecha-titulo" required>Elegir Fecha</h3>
+            <input id="fecha" type="date" name="party" min="2022-07-28" max="2022-08-28" />
+          <div>                  
+                <h3 class="fecha-titulo" required>Elegir Perforación</h3>
+                <select id="perforacion" name="PERFORACIÓN ">
+                    <option value="SELECCIONAR">SELECCIONAR</option>
+                    <option value="MICRODERMAL">MICRODERMAL</option>
+                    <option value="DAITH">DAITH</option>
+                    <option value="INDUSTRIAL">INDUSTRIAL</option>
+                    <option value="TRAGUS">TRAGUS</option>
+                    <option value="LABRET">LABRET</option>
+                </select>   
+          </div>
+            <div>
+                <h3>Elegir Sucursal</h3>
+                <select id="sucursales" name="SUCURSALES" required>
+                    <option value="SELECCIONAR">SELECCIONAR</option>
+                    <option value="NORDELTA">NORDELTA</option>
+                    <option value="GRAL PACHECO">GRAL PACHECO</option>
+                </select>
+            </div>                
+            <div>
+                <h3 class="fecha-titulo">Elegir Horario</h3>
+                <select id="horario" name="HORARIO" required>
+                    <option value="SELECCIONAR">SELECCIONAR</option>
+                    <option value="12:00">12:00</option>
+                   <option value="12:15">12:15</option>
+                    <option value="12:30">12:30</option>
+                    <option value="12:45">12:45</option>
+                    <option value="13:10">13:10</option>
+                    <option value="13:15">13:15</option>
+                    <option value="13:35">13:35</option>
+                    <option value="13:45">13:45</option>
+                </select>
+            </div>
+            <br>
+                    
+            <br>   
+            <input id="aceptar" type="submit" value="Añadir turno">              
+        </form>
         <footer> 
             <div class="container justify-content-center">
                 <div class="row">
@@ -203,6 +154,7 @@
                 </div>
             </div>      
         </footer>  
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="../JS/reserva.js"></script>
     </body>
 </html>
