@@ -7990,6 +7990,10 @@ h2, .h2 {
   font-weight: 500;
   font-size: 30px;
   animation: luna 1s linear 0s infinite normal forwards; }
+  .tituloreserva1 {
+    font-size: 32px;
+    color: #797177;
+  }
 
 .fecha-titulo {
   color: #dfbac1;
@@ -8015,6 +8019,14 @@ form {
  justify-content: center;
   text-align: center;
   align-items: center;
+}
+.pantalla {
+  color: #dfbac1;;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: end;
+  display: flex;
+  justify-content: right;
 }
 #nombreApellido, #perforacion, #horario, #sucursales, #aceptar, #fecha {
   color: #797177;

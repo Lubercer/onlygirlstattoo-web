@@ -43,11 +43,15 @@ function mostrarDatos(event) {
     const horario = document.getElementById('horario').value;
     const mostrarDatos = {nombre: nombreIngresado, fecha: fecha, perforacion: select, sucursal: sucur , horario: horario };
     turnos.push (mostrarDatos);
-    Swal.fire(
-        '¡Turno agendado!',
-        'Nos vemos <3',
-        'success'
-      )
+      swal.fire({
+        title: '¡Turno agendado!',
+        text: 'Recordatorio: Menores con tutor y DNI. Sin excepciones.',
+        imageUrl: 'https://media2.giphy.com/media/xT5LMzEbdHnbs0V1cs/giphy.gif',
+        imageWidth:400,
+        imageHeight: 200,
+        imageAlt: 'Custom image',
+        animation: false
+      })
     /* local Storage de turnos*/
     const turnosGuardados = (clave, valor) => {localStorage.setItem(clave, valor)};
     turnosGuardados ("listaDeTurnos", JSON.stringify(turnos));

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="tragus, labret, conch, labret, industrial,medusa, only girls tattoo, tattoo, piercings, perforacion, turno, tigre">
+    <meta name="descripcion" content="Only Girls Tattoo local de perforaciones y tatuajes en Buenos Aires, Zona Norte">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/maincss.css">
+    <link rel="icon" href="../multimedia/img/piercing.png">
+    <title>Turnos Agendados</title>
+</head>
+<body>
+    <header> 
+        <div class="titulo">
+            <h1>ONLY GIRLS TATTOO</h1>
+        </div> 
+    </header> 
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="ubicacion.html">SUCURSALES</a>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link" href="./cuidados.html">CUIDADOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./reserva.html">RESERVAR TURNO</a>
+           </li>
+        </ul>
+    </nav>  
+    <h2  class="tituloreserva1">EDITOR DE TURNOS</h2>
+    <div class="container mt-4" id="body">
+        <div class="row2">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="formulario">
+                            <div class="form-group">
+                                <input type="text" id="nombre-tabla" class="form-control" placeholder="Cliente">
+                            </div>
+                            <div class="form-group">
+                                <input type="date" id="fecha-tabla" class="form-control" placeholder="Ingresar Fecha">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="perfo-tabla" class="form-control" placeholder="Ingresar Perforación">
+                            </div>
+                          
+                            <div class="form-group">
+                                <input type="text" id="sucur-tabla" class="form-control" placeholder="Ingresar Sucursal">
+                            </div>
+                            <div class="form-group">
+                                <input type="time" id="horario-tabla" class="form-control" placeholder="Horario">
+                            </div>
+                            <div class="form-group">
+                                <input type="number" id="precio" class="form-control" placeholder="Ingresar precio">
+                            </div>
+                            <button class="btn btn-success" onlick="actualizar('${i}')">Actualizar</button>
+                        <button class="btn btn-primary" onlick="vistaPrincipal()"> Cancelar </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <table class="table">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Cliente</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Perforación</th>
+                        <th scope="col">Sucursal</th>
+                        <th scope="col">Horario</th>
+                        <th scope="col">Precio</th>
+                    </tr>
+                    </thead>
+                    <tbody id="tbody">
+                    <tr>
+                        <td>Juana Rodriguez</td>
+                        <td>28/08/2022</td>
+                        <td>Daith</td>
+                        <td>Pacheco</td>
+                        <td>12:10</td>
+                        <td>$900</td>
+                    </tr>
+                    </tbody>
+                </table>
+           </div>
+        </div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JS/pantalla.js"></script>
+</body>
+</html>
