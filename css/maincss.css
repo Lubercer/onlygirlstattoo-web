@@ -2202,8 +2202,8 @@ textarea.form-control-lg {
   background-color: #198754;
   border-color: #198754; }
   .btn-success:hover {
-    color: #fff;
-    background-color: #157347;
+    color: #157347;
+    background-color:#dfbac1;;
     border-color: #146c43; }
   .btn-check:focus + .btn-success, .btn-success:focus {
     color: #fff;
@@ -2283,7 +2283,7 @@ textarea.form-control-lg {
 
 .btn-danger {
   color: #fff;
-  background-color: #dc3545;
+  background-color: #dfbac1;
   border-color: #dc3545; }
   .btn-danger:hover {
     color: #fff;
@@ -8126,7 +8126,12 @@ a {
   transition: all; }
   .reserva1:hover {
     color: #7b4952; }
-
+h2#titulo2 {
+  color: #dfbac1;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 20px;
+}
 .reserva {
   color: #dfbac1;
   font-style: italic;
@@ -8163,7 +8168,9 @@ a {
   font-style: italic;
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 500;
-  font-size: 20px; }
+  font-size: 20px; 
+  text-align: center;
+}
 
 #tabla-fecha {
   margin: 0 auto; }

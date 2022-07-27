@@ -1,13 +1,13 @@
 document.getElementById("formulario").addEventListener("submit", crear);
 
-function crear(e) {
+function crear(e){
     cliente = document.getElementById("nombre-tabla").value   
     fecha = document.getElementById ("fecha-tabla").value
     perfo = document.getElementById ("perfo-tabla").value
     sucur = document.getElementById ("sucur-tabla").value
     horario = document.getElementById ("horario-tabla").value
     precio = document.getElementById ("precio").value
-    let libro = {
+    let turno = {
         cliente,
         fecha,
         perfo,
@@ -15,30 +15,30 @@ function crear(e) {
         horario,
         precio
     }
-    if (localStorage.getItem("Libros")=== null){
-        let libros =[] 
-        libros.push (libro)
-        localStorage.setItem("Libros", JSON.stringify(libros))
+    if (localStorage.getItem("Turnos")=== null){
+        let turnos =[] 
+        turnos.push (turno)
+        localStorage.setItem("Turnos", JSON.stringify(turnos))
     }else{
-        let libros = JSON.parse(localStorage.getItem("Libros"))
-        libros.push(libro)
-        localStorage.setItem("Libros", JSON.stringify(libros))
+        let turnos = JSON.parse(localStorage.getItem("Turnos"))
+        turnos.push(turno)
+        localStorage.setItem("Turnos", JSON.stringify(turnos))
     }
     mostrar ();
-    document.getElementById ("formulario").reset();
-    console.log("Libro guardado correctamente");
-    e.preventDeFault()
+    document.getElementById("formulario").reset();
+    console.log("Turno guardado correctamente");
+    e.preventDefault();
 }
     function mostrar() {
-    let libros = JSON.parse (localStorage.getItem("Libros"));
+    let turnos = JSON.parse (localStorage.getItem("Turnos"));
     document.getElementById("tbody").innerHTML = ""
-    for (let i=0; i < libros.length; i++) {
-        let cliente= libros[i].cliente;
-        let fecha= libros[i].fecha;
-        let perfo= libros[i].perfo;
-        let sucur= libros[i].sucur;
-        let horario= libros[i].horario;
-        let precio= libros[i].precio; 
+    for (let i=0; i < turnos.length; i++) {
+        let cliente= turnos[i].cliente;
+        let fecha= turnos[i].fecha;
+        let perfo= turnos[i].perfo;
+        let sucur= turnos[i].sucur;
+        let horario= turnos[i].horario;
+        let precio= turnos[i].precio; 
         document.getElementById("tbody").innerHTML +=
      ` <tr>
             <td>${cliente}</td>
@@ -47,70 +47,69 @@ function crear(e) {
             <td>${sucur}</td>
             <td>${horario}</td>
             <td>${precio}</td>
-            <td><button onlick="eliminar('${cliente}')" class="btn btn-danger">Eliminar</button></td>
-            <td><button onlick="editar('${cliente}')" class="btn btn-success">Editar</button></td>
+             <td><button onclick="eliminar('${cliente}')" class="btn btn-danger">Eliminar</button></td>
+            <td><button onclick="editar('${cliente}')" class="btn btn-success">Editar</button></td> 
         </tr>`
     } 
 }
+mostrar()
+
 function editar(cliente){
-    let libros = JSON.parse(localStorage.getItem("Libros"));
-    for(let i=0; i<libros.length; i++){
-        if(libros[i].cliente === cliente){
-            document.getElementById("body").innerHTML = ` <div class="row">
+    let turnos = JSON.parse(localStorage.getItem("Turnos"));
+    for(let i=0; i<turnos.length; i++){
+        if(turnos[i].cliente === cliente){
+            document.getElementById("body").innerHTML = ` <div class="row2">
             <div class="col-md-5">
                 <div class="card">
                     <div class="card-header">
-                        <h2> Agregar nuevo libro </h2>
+                        <h2 id="titulo2"> Agregar nuevo turno </h2>
                     </div>
                     <div class="card-body">
                         <form>
                             <div class="form-group">
-                                <input type="text" id="newnombre-tabla" class="form-control" placeholder="${libros[i].cliente}">
+                                <input type="text" id="newnombre-tabla" class="form-control" placeholder="${turnos[i].cliente}">
                             <div class="form-group">
-                                <input type="date" id="newfecha-tabla" class="form-control" placeholder="${libros[i].fecha}">
+                                <input type="date" id="newfecha-tabla" class="form-control" placeholder="${turnos[i].fecha}">
                             </div>
                             <div class="form-group">
-                                <input type="text" id="newperfo-tabla" class="form-control" placeholder="${libros[i].perfo}">
+                                <input type="text" id="newperfo-tabla" class="form-control" placeholder="${turnos[i].perfo}">
                             </div>
                             <div class="form-group">
-                                <input type="text" id="newsucur-tabla" class="form-control" placeholder="${libros[i].sucur}">
+                                <input type="text" id="newsucur-tabla" class="form-control" placeholder="${turnos[i].sucur}">
                             </div>
                             <div class="form-group">
-                                <input type="time" id="newhorario-tabla" class="form-control" placeholder="${libros[i].horario}">
+                                <input type="time" id="newhorario-tabla" class="form-control" placeholder="${turnos[i].horario}">
                             </div>
                             <div class="form-group">
-                                <input type="number" id="newprecio" class="form-control" placeholder="${libros[i].precio}">
+                                <input type="number" id="newprecio" class="form-control" placeholder="${turnos[i].precio}">
                             </div>
                         </form>
-                        <button class="btn btn-success" onlick="actualizar('${i}')">Actualizar</button>
-                        <button class="btn btn-primary" onlick="vistaPrincipal()"> Cancelar </button>
+                        <button class="btn btn-success" onclick="actualizar('${i}')">Actualizar</button>
+                        <button class="btn btn-primary" onclick="vistaPrincipal()"> Cancelar </button>
                     </div>
                 </div>
-            </div>
-            `
+            </div>`
         }
     }
 }
 function actualizar(i){
-    let libros = JSON.parse(localStorage.getItem("Libros"));
-    libros [i].cliente = document.getElementById("newnombre-tabla").value;
-    libros [i].fecha = document.getElementById("newfecha-tabla").value;
-    libros [i].perfo = document.getElementById("newsucur-tabla").value;
-    libros [i].sucur = document.getElementById("newhorario-tabla").value;
-    libros [i].precio = document.getElementById("newprecio").value;
-    localStorage.setItem("Libros", JSON.stringify(libros));
+    let turnos = JSON.parse(localStorage.getItem("Turnos"));
+    turnos[i].cliente = document.getElementById("newnombre-tabla").value;
+    turnos[i].fecha = document.getElementById("newfecha-tabla").value;
+    turnos[i].perfo = document.getElementById("newsucur-tabla").value;
+    turnos[i].sucur = document.getElementById("newhorario-tabla").value;
+    turnos[i].precio = document.getElementById("newprecio").value;
+    localStorage.setItem("Turnos", JSON.stringify(turnos));
     vistaPrincipal ()
 }
-
-
 function eliminar(cliente){
-    let libros = JSON.parse(localStorage.getItem("Libros"));
-    for(let i=0; i<libros.length; i++){
-        if(libros[i].cliente === cliente){
-            libros.splice(i,i);
+    let turnos = JSON.parse(localStorage.getItem("Turnos"));
+    for(let i=0; i<turnos.length; i++){
+        if(turnos[i].cliente === cliente){
+            turnos.splice(i,1);
         }
     }
-    localStorage.setItem("Libros",JSON.stringify(libros));
+    localStorage.setItem("Turnos",JSON.stringify(turnos));
     mostrar ();
 }
 function vistaPrincipal(){
@@ -139,11 +138,12 @@ function vistaPrincipal(){
                         <div class="form-group">
                             <input type="number" id="precio" class="form-control" placeholder="Ingresar precio">
                         </div>
-                        <button class="btn btn-success" onlick="actualizar('${i}')">Actualizar</button>
-                    <button class="btn btn-primary" onlick="vistaPrincipal()"> Cancelar </button>
+                        <button class="btn btn-success" onclick="actualizar('${i}')">Actualizar</button>
+                    <button class="btn btn-primary" onclick="vistaPrincipal()"> Cancelar </button>
                     </form>
                 </div>
             </div>`
+    mostrar ();
 }
 
 mostrar ();

@@ -28,8 +28,7 @@ window.onload = cargarEventos;
 
 function cargarEventos() {
   const validar =  document.getElementById("formulario");
-  validar.addEventListener ("submit", mostrarDatos);  
- 
+  validar.addEventListener("submit", mostrarDatos);  
 }
 /* Funcion para generar nuevos turnos */
 function mostrarDatos(event) {
