@@ -58,7 +58,7 @@ function editar(cliente){
     let turnos = JSON.parse(localStorage.getItem("Turnos"));
     for(let i=0; i<turnos.length; i++){
         if(turnos[i].cliente === cliente){
-            document.getElementById("body").innerHTML = ` <div class="row2">
+            document.getElementById("body").innerHTML = ` <div class="row">
             <div class="col-md-5">
                 <div class="card">
                     <div class="card-header">
