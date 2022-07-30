@@ -2,7 +2,7 @@
   "name": "onlygirlstattoo-web",
   "version": "1.0.0",
   "description": "WEB",
-  "main": "index.js",
+  "main": "entrar.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/maincss.css",
