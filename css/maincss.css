@@ -7851,6 +7851,13 @@ div.row {
 
 footer {
   width: 100%; 
+  position: relative;
+  bottom: 0;
+}
+div.container.justify-content-center {
+  width: 100%; 
+  position: relative;
+  bottom: 0;
 }
 
 .reserva, h6 .card-title, .h6 .card-title {
@@ -8166,12 +8173,12 @@ h2#titulo2 {
   width: 100%;
   align-content: end;
   text-align: center; }
-  .grid div {
-    color: #797177;
-    font-style: italic;
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 500;
-    font-size: 15px; }
+.grid div {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 500;
+  font-size: 15px; }
 
 .grid2 {
   display: grid;
@@ -8194,11 +8201,11 @@ margin: auto;
 #tabla-fecha {
   margin: 0 auto; }
 
-  form #formulario {
-    margin: 0 auto;
-    justify-content: center;
-    color: #797177;
-  }
+form #formulario {
+  margin: 0 auto;
+  justify-content: center;
+  color: #797177;
+}
 
 .dias {
   color: #797177;
