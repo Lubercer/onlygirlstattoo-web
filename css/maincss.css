@@ -1534,7 +1534,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #797177;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -8022,12 +8022,21 @@ form {
   align-items: center;
 }
 .pantalla {
-  color: #dfbac1;;
+  color: #dfbac1;
   font-style: italic;
   font-family: 'Bebas Neue', sans-serif;
   text-align: end;
   display: flex;
   justify-content: right;
+}
+#precio {
+  color: #797177;
+}
+#lista {
+  color: #797177;
+  font-style: italic;
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
 }
 #nombreApellido, #perforacion, #horario, #sucursales, #aceptar, #fecha {
   color: #797177;
@@ -8074,7 +8083,6 @@ h5, .h5 {
 
 ul li {
   display: inline;
-  padding: 10px;
   color: #dfbac1;
   font-style: italic;
   font-family: 'Bebas Neue', sans-serif;
@@ -8114,7 +8122,14 @@ a {
   text-align: center;
   font-size: 37px;
   width: 100%; }
+  thead, tfoot, tr, th {
+    color: #dfbac1;
 
+  }
+  tr {
+   color: #797177;
+    font-size: 20px;
+  }
 .reserva1 {
   color: #dfbac1;
   font-style: italic;
@@ -8170,7 +8185,9 @@ h2#titulo2 {
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 500;
   font-size: 20px; 
-  text-align: center;
+ align-items: center;
+ text-align: center;
+margin: auto;
 }
 
 #tabla-fecha {
@@ -8179,6 +8196,7 @@ h2#titulo2 {
   form #formulario {
     margin: 0 auto;
     justify-content: center;
+    color: #797177;
   }
 
 .dias {

@@ -1,0 +1,7 @@
+[
+    {"nombre": "microdermal", "precio": "$2000"},
+    {"nombre": "daith", "precio": "$900"},
+    {"nombre":"industrial","precio": "$850"},
+    {"nombre": "tragus", "precio": "$800"},
+    {"nombre": "labret", "precio": "$750"}
+]

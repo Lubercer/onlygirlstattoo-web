@@ -1,3 +1,21 @@
+/* Fetch & Async */
+const lista = document.getElementById ("lista");
+const traerProductos = async () => {
+    const resp = await fetch ("../data.json");
+    const data = await resp.json ();
+    data.forEach(producto => {
+        const li = document.createElement("li");
+        li.innerHTML = ` 
+        <tr id:"productosPantalla">
+            <td>${producto.nombre}</td>
+            <td>${producto.precio}</td>
+        </tr>
+        `
+        lista.append(li);
+    });
+}
+/* Dom & Event & Storage y Json */
+traerProductos ();
 document.getElementById("formulario").addEventListener("submit", crear);
 
 function crear(e){
@@ -145,7 +163,6 @@ function vistaPrincipal(){
             </div>`
     mostrar ();
 }
-
 mostrar ();
 
 
