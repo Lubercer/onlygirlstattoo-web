@@ -14,6 +14,3 @@ $styles: (
     "bold":bold
     );
     Extend:// Se agrego en la media quaries 320 en etiqueta .reserva
-%size {
-    font-size: 23px;
-}
