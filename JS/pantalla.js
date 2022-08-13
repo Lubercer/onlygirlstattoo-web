@@ -1,4 +1,3 @@
-/* Fetch & Async */
 const lista = document.getElementById ("lista");
 const traerProductos = async () => {
     const resp = await fetch ("../data.json");
@@ -14,7 +13,6 @@ const traerProductos = async () => {
         lista.append(li);
     });
 }
-/* Dom & Event & Storage y Json */
 traerProductos ();
 document.getElementById("formulario").addEventListener("submit", crear);
 
