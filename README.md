@@ -13,4 +13,4 @@ Reserva.js
 
  Fetch & Async (linea 1).
  Dom - Event - Storage - Json (linea 16).
-En pantalla.js realice lo que seria una pagina interna que solo tendria acceso yo donde simulo agregar y editar nuevos turnos de perfonaciones, las cuales tambien quedan guardadas en localstorage.
+En pantalla.js (Page reserva.html) tenemos a la izquierda un boton que nos lleva a una pagina interna que solo tendria acceso el aadministrador donde simularia agregar y editar nuevos turnos de perfonaciones, las cuales tambien quedan guardadas en localstorage.
