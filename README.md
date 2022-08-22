@@ -1,16 +1,16 @@
 # onlygirlstattoo-web
 WEB
-Se agregaron Keywords en todos los html.
-La descripcion que utilice fue: "Only Girls Tattoo local de perforaciones y tatuajes en Buenos Aires, Zona Norte".
-Se coloco el Icono de nuestra pagina web.
-Mixin: // Se lo puede encontrar en media quaries 320 en etiqueta Strong
-@mixin FontStyle {
-	font-style: italic;
-	font-family: 'Bebas Neue', sans-serif;	
-}
-Maps: // Se agrego en la media quaries 320 en etiqueta .boton0
-$styles: ( 
-    "italic": italic, 
-    "bold":bold
-    );
-    Extend:// Se agrego en la media quaries 320 en etiqueta .reserva
+Only girls Tattoo es una pagina creada para poder reservar turnos online, lo visualice como una app por eso su dinamismo a la hora de reservar dicho turno.
+
+Reserva.js
+
+ Buscamos almacenar toda la informacion para generar un turno. (linea 10).
+ Funcion para generar nuevos turnos (linea 16).
+ Uso de librerias (linea 26).
+ Local Storage de turnos (linea 35).
+
+ Pantalla.js
+
+ Fetch & Async (linea 1).
+ Dom - Event - Storage - Json (linea 16).
+En pantalla.js (Page reserva.html) tenemos a la izquierda un boton que nos lleva a una pagina interna que solo tendria acceso el aadministrador donde simularia agregar y editar nuevos turnos de perfonaciones, las cuales tambien quedan guardadas en localstorage.
